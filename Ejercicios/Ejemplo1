@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Información de un alumno
+creado por ...
+-->
+
+<!-- 
+- los documentos xml siempre empiezan por la cabera <?>
+- en un documento xml, solo hay un elemento raíz principal
+- importante nombrar bien las etiquetas
+- la info del alumno se guarda en etiquetas y atributos dentro de la raíz
+- atributos (nombre="valor"), única regla, ningún atributo puede quedar vacío
+- lainformación de un documento xml está en: la estructura, el contenido y organización
+-->
+
+<!--
+buenas prácticas:
+    - comentarios antes de cada elemento que se quiere comentar
+    - todo minúsculas o todo mayúsculas
+    - bien tabulado
+    - nombre de atributos breves, se suelen poner metadatos (información extra)
+-->
+
+<clase>
+    <alumno dni="12345678">
+        <matriculado/>
+        <nombre>Antonio</nombre>
+        <apellido>Cordero</apellido>
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <modulos>
+            <modulo nombre="Lenguaje de marcas" />
+            <modulo nombre="Programación" />
+            <modulo nombre="Base de datos" />
+        </modulos>
+        <email>acm@cesur.com</email>
+        <matricula moneda="€">1000</matricula>
+    </alumno>
+    <alumno dni="87654321">
+        <nombre>Antonio2</nombre>
+        <apellido>Cordero</apellido>
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <email>acm2@cesur.com</email>
+    </alumno>
+</clase>
+
+
+<!--
+si quiero almacenar más alumnos, el elemento raíz ya no puede ser alumno, 
+debería ser clase por ejemplo, clase como nuevo elemnto raíz 
+
+el nombre de la etiqueta, en este caso alumno, es como un clase en java, las subestiquetas
+deben nombrarse todas igual
+
+con etiquetas que no tienen nada dentro, se pueden cerrar en la misma que la de apertura, 
+porque dentro del contenido no hay nada. En XML hay 3 tipos de etiquetas, apertura, cierre y autocompletada
+
+las unidaddes o tipos de un valor, se poenen de atributo en las etiquetas
+-->
+

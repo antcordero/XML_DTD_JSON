@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+XMl de proyecto integrado
+ACM
+-->
+
+
+
+<proyecto>
+    <datosAlumno>
+        <ciclo>Desarrollo de Aplicaciones Web</ciclo>
+        <curso>Primero</curso>
+        <nombre>Antonio</nombre>
+        <apellidos>Cordero Molina</apellidos>
+    </datosAlumno>
+    <infoProyecto>
+        <titulo>FacePI</titulo>
+        <introduccion>
+            FacePI es un proyecto basado en Raspebbry PI utilizando
+            su capacidad de computación, modularidad y compatibilidad de software
+        </introduccion>
+        <finalidad>
+            Crear un dispositivo capaz de reconocer rostros
+        </finalidad>
+        <objetivos>
+            <objetivo>Adquisición del hardaware</objetivo>
+            <objetivo>Instalación del SO</objetivo>
+            <objetivo>Puesta a punto de AWS Rekognition</objetivo>
+            <objetivo>Instalación y vinculación del sofware</objetivo>
+            <objetivo>Programación de scripts</objetivo>
+            <objetivo>Entrenamiento de la red neuronal</objetivo>
+            <objetivo>Testing</objetivo>
+            <objetivo>Conclusión del proyecto</objetivo>
+        </objetivos>
+        <medios>
+            <medio>Equipo de sobremesa con Windows 10</medio>
+            <medio>Raspberry PI 3B</medio>
+            <medio>Cámara</medio>
+        </medios>
+        <planificación>El proyecto se realizará por sprints semanales</planificación>
+        <bibliografía></bibliografía>
+    </infoProyecto>
+</proyecto>
+
