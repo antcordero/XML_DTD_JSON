@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ejercicio pdf Tema 4:
+Diagrama uml series y películas con herencia y agregación
+(antiguo ejercicio de exámen)
+-->
+
+
+
+<netflix>
+    <!-- Película 1 -->
+    <pelicula id="1" director="nombre_director" duracion="120" año="2000">
+        <nombre>
+            pelicula sin nombre
+        </nombre>
+        <sinopsis>
+            Sinopsis... 
+        </sinopsis>
+    </pelicula>
+    <!-- Película 2 -->
+    <pelicula id="2" director="nombre_director_2" duracion="180" año="2001">
+        <nombre>
+            otra pelicula sin nombre
+        </nombre>
+        <sinopsis>
+            Sinopsis... 
+        </sinopsis>
+    </pelicula>
+    
+    <!-- Serie 1 -->
+    <serie nombre="serie sin nombre">
+        <sinopsis>
+            Sinopsis... 
+        </sinopsis>
+        <temporada numero="1" estado="termninada" totalEpisodios="8">
+            <capitulo id="3" nombre="capitulo 1" duracion="50" año="2016">
+                <nombre>capitulo 1</nombre>
+            </capitulo>
+            <capitulo id="4" duracion="50" año="2016">
+                <nombre>capitulo 1</nombre>
+            </capitulo>
+        </temporada>
+    </serie>    
+</netflix>
+

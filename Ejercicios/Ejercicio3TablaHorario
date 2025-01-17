@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ejercicio pdf Tema 4:
+Horario de clase
+-->
+
+<horario>
+    <clase>
+        <asignatura>Entornos</asignatura>
+        <dia>lunes</dia>
+        <horaIniicio>08:00</horaIniicio>
+        <horaFin>09:00</horaFin>
+    </clase>
+    
+    <!-- también se puede escribir así, más simplificado con atributos
+        dejando la info más importante en el contenido 
+    -->
+    <clase dia="lunes" inicio="08:0" fin="09:00">
+        <asignatura>Entornos</asignatura>
+    </clase>
+    
+    <!-- como asigantura solo tiene un valor se puede poner junto a la clase, 
+        así más simplificado-->
+    <clase dia="lunes" inicio="08:0" fin="09:00">Entornos</clase>
+    <clase dia="lunes" inicio="09:0" fin="10:00">FOL</clase>
+    <clase dia="lunes" inicio="10:0" fin="11:00">Programación</clase>
+    
+    
+    <!-- Más formas de hacerlo -->
+    
+    <dia dia="martes">
+        <asignatura inicio="08:0" fin="09:00">Sistemas Informáticos</asignatura>
+        <asignatura inicio="09:0" fin="10:00">Sistemas Informáticos</asignatura>
+        <asignatura inicio="10:0" fin="11:00">Digitalización</asignatura>
+    </dia>
+    
+    <!-- los nombres de las clases no pueden ser nombres propios 
+        de datos específicos que se piden
+        
+        ASÍ NO
+    -->
+    <martes>
+        <asignatura inicio="08:0" fin="09:00">Sistemas Informáticos</asignatura>
+        <asignatura inicio="09:0" fin="10:00">Sistemas Informáticos</asignatura>
+        <asignatura inicio="10:0" fin="11:00">Digitalización</asignatura>
+    </martes>
+    
+</horario>
+

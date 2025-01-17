@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<horario>
+    <dia>
+        <dia>LUNES</dia>
+        <hora>08:00 - 09:00</hora>
+        <asignatura>Entornos</asignatura>
+        <asignatura>FOL</asignatura>
+        <asignatura>Programación</asignatura>
+        <asignatura>Recreo</asignatura>
+        <asignatura>Programación</asignatura>
+        <asignatura>Lenguaje de Marcas</asignatura>
+        <asignatura>Lenguaje de Marcas</asignatura>
+    </dia>
+    
+</horario>
+
