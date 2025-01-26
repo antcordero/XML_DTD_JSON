@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- 
-Ejercicio 2 Relación XML
-    - Registro de Notas del Módulo de Lenguaje de Marcas
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ejercicio 2
+    -   REgistro de Notas de Lenguaje de Marcas
 -->
 
-<registroNotasLenguajeMarcas>
+
+
+<root>
     
-</registroNotasLenguajeMarcas>
+</root>
+
