@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catálogo>
+
+    <película director="Guillermo del Toro">
+        <sinopsis>Una noche Ofelia descubre las ruinas de un laberinto donde se encuentra con un fauno, una extraña criatura que le hace una increíble revelación.</sinopsis>
+        <contenido id= "123" nombre = "El laberinto del fauno" duración = "2 horas" año = "2008"></contenido>
+    </película>
+  
+    <serie>
+        <sinopsis>Stranger Things es una serie de televisión ambientada en los años ochenta en el pueblo ficticio de Hawkins.</sinopsis>
+        <temporada número = "456" estado = "rodando" total_episodios = "9" >1</temporada>
+        <capítulo>2</capítulo>
+        <contenido id= "234" nombre = "Stranger Things" duración = "40 minutos" año = "2019"></contenido>
+    </serie>
+
+</catálogo>

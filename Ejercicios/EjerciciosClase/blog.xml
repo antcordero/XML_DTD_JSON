@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Exportación de las entradas de un blog
+-->
+
+
+<blog>
+    
+    <entrada id="34" url="https://">
+        <titulo>Entrada1</titulo>
+        <contenido>ñ´dsao`pdosa`pdsao`pdsa ç</contenido>
+        <fecha>2024-12-20</fecha>
+    </entrada>
+    <entrada id="34" url="https://">
+        <titulo>Entrada2</titulo>
+        <contenido>ñ´dsao`pdosa`pdsao`pdsa ç</contenido>
+        <fecha>2024-12-18</fecha>
+    </entrada>
+    
+</blog>
+

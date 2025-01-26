@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Pablo Aguirrre García Catalogo 1
+-->
+
+
+
+<Catalogo>
+    <Pelicula Director= "Mike Maltil" Sinop= "Una peli de accion muy loca">
+        <Contenido Id= "01" Nombre= "Torrente1" Duración= "7h" Año= "2007"></Contenido>
+   
+    </Pelicula>
+    
+    <Serie Sinopsis= "Mucho miedo y drama">
+        <Temporada Numero= "03" Estado= "Activo" TotalEP= "69"></Temporada>
+        <Categoria Nombre= "Sed True"></Categoria>
+        <Capítulo cap="1"></Capítulo>
+        <Contenido Id="03" Nombre= "Hola" Duración= "17h" Año= "2022"></Contenido>
+        
+    </Serie>
+</Catalogo>
+

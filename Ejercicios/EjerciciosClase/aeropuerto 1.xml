@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<aeropuerto nombre="" ciudad="" pais="" codigo="">
+
+    <llegada>
+        <vuelo id="5021" estado="horario">
+            <aerolinea>Aerolínea Nacionál</aerolinea>
+            <destino>Bacelona</destino>
+            <salida>11:30</salida>
+            <terminal>Terminal 2 Puerta D1</terminal>
+        </vuelo>
+        <vuelo id="5021" estado="horario">
+            <aerolinea>Aerolínea Nacionál</aerolinea>
+            <destino>Bacelona</destino>
+            <salida>11:30</salida>
+            <terminal>Terminal 2 Puerta D1</terminal>
+        </vuelo>
+    </llegada>
+    <salida>
+        <vuelo id="3012" estado="cancelado">
+            <aerolinea>Vuelo Globál</aerolinea>
+            <origen>New Yrok</origen>
+            <llegada>10:15</llegada>
+            <terminal>Terminal 3 Puerta C3</terminal>
+        </vuelo>
+    </salida>
+</aeropuerto>
