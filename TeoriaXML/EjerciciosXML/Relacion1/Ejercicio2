@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR: la etiqueta deporteAtletismo y deporteNatación tenía un espacio en blanco, pero puede haber un guión -->
+<deportistas>
+    <deportista>
+      <deporte-Atletismo />
+      <nombre>Jesse Owens</nombre>
+    </deportista> <!-- ERROR:  esta etiqueta de cierre faltaba-->
+  <deportista>
+      <deporte-Natación />
+      <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

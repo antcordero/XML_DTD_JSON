@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- esto es un ejemplo de un documento bien formado en xml -->
+<mensaje>
+  <remitente>Antonio Cordero</remitente>
+  
+  <destinatarios>
+    <destinario>....</destinario>
+    <destinario>....</destinario>
+    <destinario>....</destinario>
+  </destinatarios>
+
+  <asunto>Message</asunto>
+  
+  <texto>
+    Hola
+  </texto>
+  
+</mensaje>

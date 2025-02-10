@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 8 - Inventario de Dispositivos de Red de una Empresa
+-->
+
+<inventarioRed>
+    <dispositivo>
+        <tipo>Servidor</tipo>
+        <identificador>ID-001</identificador>
+        <nombre>Servidor-Central</nombre>
+        <configuracion>
+            <direccionIP>192.168.1.10</direccionIP>
+            <modelo>ProLiant DL380</modelo>
+            <fabricante>HP</fabricante>
+            <sistemaOperativo>Ubuntu Server 22.04</sistemaOperativo>
+        </configuracion>
+        <estado>
+            <activo>true</activo>
+            <ultimaActualizacion>2025-02-10</ultimaActualizacion>
+        </estado>
+        <informacionAdicional>
+            <ubicacion>Centro de Datos - Rack 5</ubicacion>
+            <vlan>10</vlan>
+            <responsable>
+                <nombre>Juan Pérez</nombre>
+                <email>jperez@empresa.com</email>
+                <telefono>+34 600 123 456</telefono>
+            </responsable>
+        </informacionAdicional>
+        <servidor>
+            <cargaSistema>45%</cargaSistema>
+            <capacidadAlmacenamiento>2TB</capacidadAlmacenamiento>
+        </servidor>
+    </dispositivo>
+
+    <dispositivo>
+        <tipo>Router</tipo>
+        <identificador>ID-002</identificador>
+        <nombre>Router-Principal</nombre>
+        <configuracion>
+            <direccionIP>192.168.1.1</direccionIP>
+            <modelo>Cisco ISR 4331</modelo>
+            <fabricante>Cisco</fabricante>
+            <firmware>IOS-XE 17.6.1</firmware>
+        </configuracion>
+        <estado>
+            <activo>true</activo>
+            <ultimaActualizacion>2025-02-09</ultimaActualizacion>
+        </estado>
+        <informacionAdicional>
+            <ubicacion>Sala de Comunicaciones</ubicacion>
+            <puertos>4</puertos>
+            <vlan>Troncal</vlan>
+            <responsable>
+                <nombre>Ana López</nombre>
+                <email>alopez@empresa.com</email>
+                <telefono>+34 600 654 321</telefono>
+            </responsable>
+        </informacionAdicional>
+    </dispositivo>
+
+    <dispositivo>
+        <tipo>Switch</tipo>
+        <identificador>ID-003</identificador>
+        <nombre>Switch-Oficina</nombre>
+        <configuracion>
+            <direccionIP>192.168.1.20</direccionIP>
+            <modelo>Aruba 2930F</modelo>
+            <fabricante>HPE</fabricante>
+            <firmware>16.10.0003</firmware>
+        </configuracion>
+        <estado>
+            <activo>true</activo>
+            <ultimaActualizacion>2025-02-08</ultimaActualizacion>
+        </estado>
+        <informacionAdicional>
+            <ubicacion>Oficina Principal</ubicacion>
+            <puertos>24</puertos>
+            <vlan>20</vlan>
+            <responsable>
+                <nombre>Pedro Martínez</nombre>
+                <email>pmartinez@empresa.com</email>
+                <telefono>+34 600 789 123</telefono>
+            </responsable>
+        </informacionAdicional>
+    </dispositivo>
+
+</inventarioRed>
+
+
+

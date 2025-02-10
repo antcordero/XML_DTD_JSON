@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8?>
+
+<!-- 
+Ejercicio 6 - Exportación de Datos Personales de Alumnos
+-->
+
+<alumnos>
+    <alumno>
+        <informacionBasica>
+            <id>2025001</id>
+            <nombre>Carlos</nombre>
+            <apellidos>Gómez Pérez</apellidos>
+            <fechaNacimiento>2005-04-15</fechaNacimiento>
+        </informacionBasica>
+        
+        <datosContacto>
+            <direccion>Calle Mayor 12, Madrid, España</direccion>
+            <telefono>+34 600123456</telefono>
+            <correoElectronico>carlos.gomez@example.com</correoElectronico>
+        </datosContacto>
+
+        <informacionAcademica>
+            <grupo>2DAW</grupo>
+            <curso>2024/2025</curso>
+            <estadoMatricula>Activo</estadoMatricula>
+        </informacionAcademica>
+
+        <datosAdicionales>
+            <observaciones>Ninguna</observaciones>
+            <adaptaciones>No requiere adaptaciones</adaptaciones>
+        </datosAdicionales>
+    </alumno>
+
+    <alumno>
+        <informacionBasica>
+            <id>2025002</id>
+            <nombre>Lucía</nombre>
+            <apellidos>Martínez Ruiz</apellidos>
+            <fechaNacimiento>2004-11-22</fechaNacimiento>
+        </informacionBasica>
+        
+        <datosContacto>
+            <direccion>Avenida Libertad 45, Valencia, España</direccion>
+            <telefono>+34 650987654</telefono>
+            <correoElectronico>lucia.martinez@example.com</correoElectronico>
+        </datosContacto>
+
+        <informacionAcademica>
+            <grupo>1DAW</grupo>
+            <curso>2024/2025</curso>
+            <estadoMatricula>Activo</estadoMatricula>
+        </informacionAcademica>
+
+        <datosAdicionales>
+            <observaciones>Interés en desarrollo web</observaciones>
+            <adaptaciones>Extensión de tiempo en exámenes</adaptaciones>
+        </datosAdicionales>
+    </alumno>
+</alumnos>
+
+

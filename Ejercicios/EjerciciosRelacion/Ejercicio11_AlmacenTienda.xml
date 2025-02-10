@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 11 - Inventario de Almacén de Tienda de Informática
+-->
+
+<almacen>
+    <producto>
+        <nombre>Intel Core i7-12700K</nombre>
+        <codigo>CPU-001</codigo>
+        <categoria>Procesadores</categoria>
+        <detalles>
+            <descripcion>Procesador Intel Core i7 de 12ª generación con 12 núcleos y 20 hilos.</descripcion>
+            <precio>389.99</precio>
+            <marca>Intel</marca>
+            <stock>15</stock>
+        </detalles>
+        <ubicacion>
+            <pasillo>3</pasillo>
+            <altura>Estantería 2</altura>
+            <posicion>Sección A</posicion>
+        </ubicacion>
+        <variantes>
+            <modelo>i7-12700KF</modelo>
+            <modelo>i7-12700</modelo>
+        </variantes>
+        <proveedor>
+            <nombre>TechDistribuciones S.L.</nombre>
+            <ultimaReposicion>2025-02-05</ultimaReposicion>
+        </proveedor>
+    </producto>
+
+    <producto>
+        <nombre>Kingston Fury Beast 16GB DDR4 3200MHz</nombre>
+        <codigo>RAM-002</codigo>
+        <categoria>Memorias RAM</categoria>
+        <detalles>
+            <descripcion>Módulo de memoria RAM DDR4 de 16GB a 3200MHz.</descripcion>
+            <precio>69.99</precio>
+            <marca>Kingston</marca>
+            <stock>30</stock>
+        </detalles>
+        <ubicacion>
+            <pasillo>5</pasillo>
+            <altura>Estante 1</altura>
+            <posicion>Sección B</posicion>
+        </ubicacion>
+        <variantes>
+            <tamaño>8GB</tamaño>
+            <tamaño>32GB</tamaño>
+            <color>Negro</color>
+        </variantes>
+        <proveedor>
+            <nombre>Memoria Express S.A.</nombre>
+            <ultimaReposicion>2025-01-28</ultimaReposicion>
+        </proveedor>
+    </producto>
+
+    <producto>
+        <nombre>Logitech G502 HERO</nombre>
+        <codigo>PER-003</codigo>
+        <categoria>Periféricos</categoria>
+        <detalles>
+            <descripcion>Ratón gaming con sensor HERO 25K y 11 botones programables.</descripcion>
+            <precio>79.99</precio>
+            <marca>Logitech</marca>
+            <stock>25</stock>
+        </detalles>
+        <ubicacion>
+            <pasillo>2</pasillo>
+            <altura>Estante 3</altura>
+            <posicion>Sección C</posicion>
+        </ubicacion>
+        <variantes>
+            <color>Negro</color>
+            <color>Blanco</color>
+        </variantes>
+        <proveedor>
+            <nombre>Gaming Supplies Ltd.</nombre>
+            <ultimaReposicion>2025-02-02</ultimaReposicion>
+        </proveedor>
+    </producto>
+</almacen>
+
+

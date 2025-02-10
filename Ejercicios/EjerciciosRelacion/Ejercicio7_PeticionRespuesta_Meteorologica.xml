@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 7 - Petición y Respuesta XML de Información Meteorológica
+-->
+
+<servicioMeteorologico>
+    <!-- Petición de datos -->
+    <peticion>
+        <cliente>
+            <token>ABC123XYZ</token>
+            <aplicacion>MiAppClima</aplicacion>
+        </cliente>
+        <localizacion>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28001</codigoPostal>
+            <coordenadas>
+                <latitud>40.4168</latitud>
+                <longitud>-3.7038</longitud>
+            </coordenadas>
+        </localizacion>
+        <datosSolicitados>
+            <condicionesActuales>true</condicionesActuales>
+            <previsionDiaria>true</previsionDiaria>
+            <datosHistoricos>false</datosHistoricos>
+        </datosSolicitados>
+        <parametros>
+            <idioma>es</idioma>
+            <unidades>metricas</unidades>
+        </parametros>
+    </peticion>
+
+    <!-- Respuesta del servidor -->
+    <respuesta>
+        <estado>
+            <codigo>200</codigo>
+            <mensaje>Solicitud exitosa</mensaje>
+        </estado>
+        <datosMeteorologicos>
+            <condicionesActuales>
+                <temperatura>15</temperatura>
+                <unidadTemperatura>°C</unidadTemperatura>
+                <humedad>72</humedad>
+                <unidadHumedad>%</unidadHumedad>
+                <velocidadViento>10</velocidadViento>
+                <unidadViento>km/h</unidadViento>
+                <condicion>Parcialmente nublado</condicion>
+            </condicionesActuales>
+            <prevision>
+                <dia>
+                    <fecha>2025-02-11</fecha>
+                    <temperaturaMaxima>18</temperaturaMaxima>
+                    <temperaturaMinima>10</temperaturaMinima>
+                    <condicion>Despejado</condicion>
+                </dia>
+                <dia>
+                    <fecha>2025-02-12</fecha>
+                    <temperaturaMaxima>16</temperaturaMaxima>
+                    <temperaturaMinima>9</temperaturaMinima>
+                    <condicion>Lluvia ligera</condicion>
+                </dia>
+            </prevision>
+        </datosMeteorologicos>
+        <informacionAdicional>
+            <ultimaActualizacion>2025-02-10T08:00:00Z</ultimaActualizacion>
+        </informacionAdicional>
+        <mensajesError></mensajesError>
+    </respuesta>
+</servicioMeteorologico>

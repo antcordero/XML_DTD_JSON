@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 10 - Horario de Exámenes del Ciclo Formativo
+-->
+
+<cicloFormativo>
+    <informacionGeneral>
+        <nombreCiclo>Desarrollo de Aplicaciones Web</nombreCiclo>
+        <duracion>2 años</duracion>
+        <añoAcademico>2024-2025</añoAcademico>
+    </informacionGeneral>
+
+    <cursos>
+        <curso>
+            <numero>1</numero>
+            <examenes>
+                <examen>
+                    <asignatura>Programación</asignatura>
+                    <fecha>2025-06-10</fecha>
+                    <horaInicio>09:00</horaInicio>
+                    <duracion>2 horas</duracion>
+                    <aula>Aula 101</aula>
+                    <profesor>María Rodríguez</profesor>
+                    <tipo>Teórico</tipo>
+                    <indicaciones>Se permite el uso de apuntes en papel.</indicaciones>
+                </examen>
+                <examen>
+                    <asignatura>Bases de Datos</asignatura>
+                    <fecha>2025-06-12</fecha>
+                    <horaInicio>11:00</horaInicio>
+                    <duracion>2 horas</duracion>
+                    <aula>Aula 102</aula>
+                    <profesor>Juan Pérez</profesor>
+                    <tipo>Práctico</tipo>
+                    <indicaciones>Se requiere ordenador con MySQL instalado.</indicaciones>
+                </examen>
+            </examenes>
+        </curso>
+
+        <curso>
+            <numero>2</numero>
+            <examenes>
+                <examen>
+                    <asignatura>Desarrollo Web en Entorno Cliente</asignatura>
+                    <fecha>2025-06-15</fecha>
+                    <horaInicio>10:00</horaInicio>
+                    <duracion>1 hora y 30 minutos</duracion>
+                    <aula>Aula 201</aula>
+                    <profesor>Laura Fernández</profesor>
+                    <tipo>Mixto</tipo>
+                    <indicaciones>Parte teórica en papel, parte práctica en ordenador.</indicaciones>
+                </examen>
+                <examen>
+                    <asignatura>Implantación de Aplicaciones Web</asignatura>
+                    <fecha>2025-06-18</fecha>
+                    <horaInicio>08:30</horaInicio>
+                    <duracion>2 horas</duracion>
+                    <aula>Aula 202</aula>
+                    <profesor>David Gómez</profesor>
+                    <tipo>Práctico</tipo>
+                    <indicaciones>Se requiere acceso a servidor Apache y base de datos.</indicaciones>
+                </examen>
+            </examenes>
+        </curso>
+    </cursos>
+</cicloFormativo>
+
+

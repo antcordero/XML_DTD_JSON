@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 9 - Listado de Productos de una Tienda Online con Opiniones
+-->
+
+<tiendaOnline>
+    <producto>
+        <nombre>Smartphone X100</nombre>
+        <codigo>ID-001</codigo>
+        <categoria>Electrónica</categoria>
+        <detalles>
+            <descripcion>Teléfono inteligente con pantalla AMOLED de 6.5 pulgadas y 128GB de almacenamiento.</descripcion>
+            <precio>599.99</precio>
+            <stock>20</stock>
+            <marca>TechBrand</marca>
+            <colores>Negro, Azul, Rojo</colores>
+            <valoracionGeneral>4.5</valoracionGeneral>
+        </detalles>
+        <imagenes>
+            <principal>https://tienda.com/img/smartphone-x100.jpg</principal>
+            <adicional>https://tienda.com/img/smartphone-x100-lateral.jpg</adicional>
+            <adicional>https://tienda.com/img/smartphone-x100-trasera.jpg</adicional>
+        </imagenes>
+        <descuento>
+            <precioOriginal>699.99</precioOriginal>
+            <precioDescuento>599.99</precioDescuento>
+            <validoHasta>2025-02-28</validoHasta>
+        </descuento>
+        <opiniones>
+            <opinion>
+                <cliente>
+                    <nombre>Carlos Pérez</nombre>
+                    <verificado>true</verificado>
+                </cliente>
+                <valoracion>5</valoracion>
+                <comentario>Excelente teléfono, rápido y con buena batería.</comentario>
+                <fecha>2025-01-15</fecha>
+            </opinion>
+            <opinion>
+                <cliente>
+                    <nombre>María López</nombre>
+                    <verificado>false</verificado>
+                </cliente>
+                <valoracion>4</valoracion>
+                <comentario>Buen diseño, pero esperaba mejor cámara.</comentario>
+                <fecha>2025-01-18</fecha>
+            </opinion>
+        </opiniones>
+    </producto>
+
+    <producto>
+        <nombre>Zapatillas Deportivas UltraRun</nombre>
+        <codigo>ID-002</codigo>
+        <categoria>Ropa</categoria>
+        <detalles>
+            <descripcion>Zapatillas deportivas con tecnología de amortiguación avanzada.</descripcion>
+            <precio>89.99</precio>
+            <stock>50</stock>
+            <marca>RunFast</marca>
+            <tamaños>38, 39, 40, 41, 42, 43, 44</tamaños>
+            <colores>Blanco, Negro, Gris</colores>
+            <valoracionGeneral>4.8</valoracionGeneral>
+        </detalles>
+        <imagenes>
+            <principal>https://tienda.com/img/zapatillas-ultrarun.jpg</principal>
+            <adicional>https://tienda.com/img/zapatillas-ultrarun-suela.jpg</adicional>
+        </imagenes>
+        <opiniones>
+            <opinion>
+                <cliente>
+                    <nombre>Javier Martín</nombre>
+                    <verificado>true</verificado>
+                </cliente>
+                <valoracion>5</valoracion>
+                <comentario>Muy cómodas y resistentes, perfectas para correr.</comentario>
+                <fecha>2025-02-05</fecha>
+            </opinion>
+        </opiniones>
+    </producto>
+
+</tiendaOnline>
+

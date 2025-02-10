@@ -5,12 +5,12 @@ creado por ...
 -->
 
 <!-- 
-- los documentos xml siempre empiezan por la cabera <?>
+- los documentos xml siempre empiezan por la cabecera <?>
 - en un documento xml, solo hay un elemento raíz principal
 - importante nombrar bien las etiquetas
 - la info del alumno se guarda en etiquetas y atributos dentro de la raíz
 - atributos (nombre="valor"), única regla, ningún atributo puede quedar vacío
-- lainformación de un documento xml está en: la estructura, el contenido y organización
+- la información de un documento xml está en: la estructura, el contenido y organización
 -->
 
 <!--

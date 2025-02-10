@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--  ERROR: no traía una elemento raiz que abarca todo el documento -->
+<!-- ERROR: el elemento autor no se sabía si era empty (solo) o le sobraba un \ -->
+<cine>
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula>
+    <autor>barto</autor>
+</cine>

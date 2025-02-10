@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR: usar el símbolo menor en un atributo, otro error es no cerrar bien en línea 5 la etiqueta y un atributo con espacios -->
+<mediosDeTransporte>
+    <bicicleta velocidad-máxima="100km/h" />
+    <patinete velocidad-mínima="50 km/h"/>
+</mediosDeTransporte>
