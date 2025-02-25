@@ -6,15 +6,12 @@ Ejercicio 1 Relación XML
 -->
 
 <servidores>
-    <log>
-        <id>001</id>
-        <tiempo>2025-01-26T00:00:00</tiempo>
-        <servidor>
-            <idServidor>S001</idServidor>
+    <log id="001" tiempo="2025-01-26T00:00:00">
+        <servidor idServidor="S001">
+            <!-- datos de red -->
             <direccionRed>192.168.1.1</direccionRed>
         </servidor>
-        <evento>
-            <tipo>Consulta</tipo>
+        <evento tipo="Consulta">
             <descripcion>Descripción del servidor S001</descripcion>
             <datosTecnicos>CPU: 4 núcleos, RAM: 16GB, SSD: 512GB</datosTecnicos>
             <acciones>

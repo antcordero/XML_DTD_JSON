@@ -5,12 +5,11 @@ Ejercicio 2 - Registro de Notas del Módulo de Lenguaje de Marcas
 -->
 
 <registroNotas>
-    <curso id="2024-2025">
-        <grupo id="LM1A">
-            <alumno>
-                <id>001</id>
-                <nombre>Juan</nombre>
-                <apellidos>Pérez López</apellidos>
+    <curso año="2024/2025">
+        <grupo id="LM-DAW1">
+            <alumno id="001">
+                <nombre>Elena</nombre>
+                <apellidos>Nito Del Bosque</apellidos>
                 <evaluaciones>
                     <evaluacion tipo="Ejercicio Propuesto">
                         <nota>8.5</nota>
@@ -27,10 +26,9 @@ Ejercicio 2 - Registro de Notas del Módulo de Lenguaje de Marcas
                 </evaluaciones>
                 <notaMedia>8.25</notaMedia>
             </alumno>
-            <alumno>
-                <id>002</id>
-                <nombre>María</nombre>
-                <apellidos>Gómez Sánchez</apellidos>
+            <alumno id="002">
+                <nombre>Esteban</nombre>
+                <apellidos>Quito</apellidos>
                 <evaluaciones>
                     <evaluacion tipo="Ejercicio Propuesto">
                         <nota>7.5</nota>
