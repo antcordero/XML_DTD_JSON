@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 
-Ejercicio 5 - Registro de Datos de Sensores Ambientales
+    Ejercicio 5 - Registro de Datos de Sensores Ambientales
 -->
 
 <redSensores>
-    <informacionGlobal>
-        <areaCubierta>Zona Metropolitana</areaCubierta>
-        <responsable>Sistema de Monitoreo Ambiental</responsable>
-    </informacionGlobal>
-
-    <sensor>
-        <id>S001</id>
+    <informacionGlobal zona="Malaga" responsable="UMA"/>
+    <sensor id="S001" estado="Activo">
         <ubicacion>
             <latitud>40.7128</latitud>
             <longitud>-74.0060</longitud>
         </ubicacion>
         <tipoMedicion>Temperatura</tipoMedicion>
-        <estado>Activo</estado>
-
+        
         <registros>
             <registro>
                 <marcaTiempo>2025-02-10T08:00:00</marcaTiempo>
@@ -32,16 +26,14 @@ Ejercicio 5 - Registro de Datos de Sensores Ambientales
             </registro>
         </registros>
     </sensor>
-
-    <sensor>
-        <id>S002</id>
+    
+    <sensor id="S002" estado="Inactivo">
         <ubicacion>
             <latitud>34.0522</latitud>
             <longitud>-118.2437</longitud>
         </ubicacion>
         <tipoMedicion>CO2</tipoMedicion>
-        <estado>Inactivo</estado>
-
+        
         <registros>
             <registro>
                 <marcaTiempo>2025-02-09T18:30:00</marcaTiempo>
@@ -55,5 +47,6 @@ Ejercicio 5 - Registro de Datos de Sensores Ambientales
             </registro>
         </registros>
     </sensor>
+
 </redSensores>
 

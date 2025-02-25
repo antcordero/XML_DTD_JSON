@@ -5,12 +5,7 @@
 -->
 
 <baseDeDatosPeliculas>
-    <pelicula>
-        <titulo>Inception</titulo>
-        <director>Christopher Nolan</director>
-        <anioEstreno>2010</anioEstreno>
-        <genero>Ciencia Ficción</genero>
-        
+    <pelicula titulo="Iception" director="Christopher Nolan" añoEstreno="2010" genero="Ciencia Ficción">        
         <reparto>
             <actor>
                 <nombre>Leonardo DiCaprio</nombre>
@@ -28,22 +23,15 @@
 
         <produccion>
             <pais>Estados Unidos</pais>
-            <estudio>Warner Bros.</estudio>
+            <estudio>Warner Bros</estudio>
         </produccion>
 
-        <informacionAdicional>
-            <duracion>148</duracion> <!-- en minutos -->
-            <calificacionEdad>PG-13</calificacionEdad>
+        <informacionAdicional duracion="148" calificación="PG-13">
             <puntuacionCritica porcentaje="87">8.7</puntuacionCritica>
         </informacionAdicional>
     </pelicula>
 
-    <pelicula>
-        <titulo>Parasite</titulo>
-        <director>Bong Joon-ho</director>
-        <anioEstreno>2019</anioEstreno>
-        <genero>Drama</genero>
-
+    <pelicula titulo="Parasite" director="Bong Joon-ho" añoEstreno="2019" genero="Drama">        
         <reparto>
             <actor>
                 <nombre>Song Kang-ho</nombre>
@@ -64,9 +52,7 @@
             <estudio>Barunson E&A</estudio>
         </produccion>
 
-        <informacionAdicional>
-            <duracion>132</duracion> <!-- en minutos -->
-            <calificacionEdad>R</calificacionEdad>
+        <informacionAdicional duracion="123" calificación="R">
             <puntuacionCritica porcentaje="96">9.6</puntuacionCritica>
         </informacionAdicional>
     </pelicula>

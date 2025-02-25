@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 
-Ejercicio 7 - Petición y Respuesta XML de Información Meteorológica
+
+    *************REHACER*************
+
+    Ejercicio 7 - Petición y Respuesta XML de Información Meteorológica
 -->
 
 <servicioMeteorologico>
