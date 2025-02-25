@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+    Ejercicio 3 - Biblioteca Digital
 -->
 
 
 
-<root>
-    
-</root>
+<biblioteca>
+    <libro ISBN="0123456789" año="2005" genero="Ciencia Ficción" formato="físico">
+        <titulo>
+            El Imperio Final (MistBorn I)
+        </titulo>
+        <autor>
+            Brandon Sanderson
+        </autor>
+        <estado disponibilidad="Disponible" fechaAdquisicion="20/09/2024">
+            <prestado/>
+        </estado>    
+    </libro>
+    <libro ISBN="9876543210" año="2024" genero="Drama" formato="físico">
+        <titulo>
+            The Enigma of Room 622
+        </titulo>
+        <autor>
+            Joël Dicker 
+        </autor>
+        <estado disponibilidad="Prestado" fechaAdquisicion="15/08/2024">
+            <prestado>
+                <usuario dni="01234567A">
+                    <nombre>
+                        Aitor Menta
+                    </nombre>
+                    <fechaPrevistaDevolucion>
+                        15/09/2024
+                    </fechaPrevistaDevolucion>
+                </usuario>
+            </prestado>
+        </estado> 
+    </libro>
+    <libro ISBN="7894561230" año="2022" genero="Fantasía" formato="físico/digital">
+        <titulo>
+            Harry Potter book set (20th anniversary - Hufflepuff House Edition)
+        </titulo>
+        <autor>
+            J.K. Rowling
+        </autor>
+        <estado disponibilidad="Reservado" fechaAdquisicion="20/01/2025">
+            <prestado/>
+        </estado>    
+    </libro>
+</biblioteca>
 
