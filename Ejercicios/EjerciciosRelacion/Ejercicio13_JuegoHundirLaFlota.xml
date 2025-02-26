@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio 13 - Juego de Hundir la Flota
+-->
+
+<partida id="P-001" fecha_inicio="2025-02-26T14:30:00" estado="terminada" ganador="Ermenegildo">
+    <jugadores>
+        <jugador id="1" nombre="Ermenegildo"/>
+        <jugador id="2" nombre="Piberploncio"/>
+    </jugadores>
+
+    <resumen_final>
+        <jugador id="1" disparos="35" barcos_hundidos="5"/>
+        <jugador id="2" disparos="40" barcos_hundidos="4"/>
+    </resumen_final>
+
+    <tableros>
+        <tablero jugador="1">
+            <barco tipo="portaaviones" inicio_x="A" inicio_y="1" fin_x="A" fin_y="5"/>
+            <barco tipo="submarino" inicio_x="C" inicio_y="3" fin_x="E" fin_y="3"/>
+            <!-- Más barcos... -->
+            <celda x="A" y="1" estado="hundido"/>
+            <celda x="B" y="2" estado="agua"/>
+            <celda x="C" y="3" estado="acierto"/>
+            <!-- Más celdas... -->
+        </tablero>
+
+        <tablero jugador="2">
+            <!-- misma estructura del j1 para el jugador 2 -->
+        </tablero>
+    </tableros>
+
+    <movimientos>
+        <movimiento jugador="Ermenegildo" disparo_x="B" disparo_y="3" resultado="agua"/>
+        <movimiento jugador="Piberploncio" disparo_x="A" disparo_y="1" resultado="acierto"/>
+        <movimiento jugador="Ermenegildo" disparo_x="C" disparo_y="3" resultado="hundido" barco_hundido="submarino"/>
+        <!-- Más movimientos... -->
+    </movimientos>
+</partida>
+
+
