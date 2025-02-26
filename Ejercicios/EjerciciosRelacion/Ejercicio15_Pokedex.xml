@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio 15 - Pokedex
+-->
+
+<pokedex>
+    <titulo>Pokedex</titulo>
+    <descripcion>Conoce algunos Pokémon y sus ataques</descripcion>
+    
+    <pokemons>
+        <pokemon img="pikachu.jpg" nombre="Pikachu" tipo="Eléctrico">
+            <ataques>
+                <ataque1>Impactrueno</ataque1>
+                <ataque2>Cola de Hierro</ataque2>
+                <ataque3>Rayo</ataque3>
+                <ataque4>Electrobola</ataque4>
+            </ataques>
+            <masInfo link="https://www.wikidex.net/wiki/Pikachu"/>
+        </pokemon>
+        <pokemon img="bulbasur.jpg" nombre="Bulbasur" tipo="Planta/Veneno">
+            <ataques>
+                <ataque1>Latigazo</ataque1>
+                <ataque2>Placaje</ataque2>
+                <ataque3>Somnifero</ataque3>
+                <ataque4>Látigo Cepa</ataque4>
+            </ataques>
+            <masInfo link="https://www.wikidex.net/wiki/Bulbasaur"/>
+        </pokemon>
+        <pokemon img="charmander.jpg" nombre="Charmander" tipo="Fuego">
+            <ataques>
+                <ataque1>Placaje</ataque1>
+                <ataque2>Ascuas</ataque2>
+                <ataque3>Gruñido</ataque3>
+                <ataque4>Embestida</ataque4>
+            </ataques>
+            <masInfo link="https://www.wikidex.net/wiki/Charmander"/>
+        </pokemon>
+    </pokemons>
+    
+</pokedex>
+
