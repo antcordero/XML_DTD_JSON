@@ -3,7 +3,7 @@
     Ejercicio 13 - Juego de Hundir la Flota
 -->
 
-<partida id="P-001" fecha_inicio="2025-02-26T14:30:00" estado="terminada" ganador="Ermenegildo">
+<partida id="P-001" fecha_inicio="2025-02-26 14:30:00" estado="terminada" ganador="Ermenegildo">
     <jugadores>
         <jugador id="1" nombre="Ermenegildo"/>
         <jugador id="2" nombre="Piberploncio"/>
