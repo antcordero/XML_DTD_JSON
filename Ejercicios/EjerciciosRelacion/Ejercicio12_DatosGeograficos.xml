@@ -5,56 +5,55 @@
 
 <datosGeograficos>
     <continente nombre="Europa">
-        <descripcion>Está bien</descripcon>
-        <pais nombre="España" capital="Madriz" poblacion="49.077.984" areaKm2="505.978">
-            <ciudades nombre="Málaga" poblacion="591.673" lat="36°43′21.36 N" long="4°25′26.40 W">
+        <descripcion>Está bien</descripcion>
+        <pais nombre="España" capital="Madriz" poblacion="49077984" areaKm2="505978">
+            <ciudad nombre="Málaga" poblacion="591673" lat="36.722600" long="-4.423999">
                 <informacionAdicional>
                     <idioma>Castellano</idioma>
                     <monumentos>Alcazaba</monumentos>
                 </informacionAdicional>
-            </ciudades>
-            <ciudades nombre="Granada" poblacion="243.059" lat="37° 11' 23.63850 N" long="3° 35' 47.06028 W">
+            </ciudad>
+            <ciudad nombre="Granada" poblacion="243059" lat="37.189396" long="-3.596639">
                 <informacionAdicional>
                     <idioma>Castellano</idioma>
                     <monumentos>Alhambra</monumentos>
                 </informacionAdicional>
-            </ciudades>
+            </ciudad>
         </pais>
-        <pais nombre="Italia" capital="Roma" poblacion="58.990.000" areaKm2="302.073">
-            <ciudades nombre="Bolonia" poblacion="390 850" lat="44°29′38″ N" long="11°20′34″ E">
+        <pais nombre="Italia" capital="Roma" poblacion="58990000" areaKm2="302073">
+            <ciudad nombre="Bolonia" poblacion="390850" lat="44.494383" long="11.342722">
                 <informacionAdicional>
                     <idioma>Italiano</idioma>
                     <monumentos>Garisenda e Asinelli</monumentos>
                 </informacionAdicional>
-            </ciudades>
-            <ciudades nombre="Verona" poblacion="243.059" lat="45°26′19″ N" long="10°59′34″ E">
+            </ciudad>
+            <ciudad nombre="Verona" poblacion="243059" lat="45.438611" long="10.992778">
                 <informacionAdicional>
                     <idioma>Italiano</idioma>
                     <monumentos>Ponte Pietra</monumentos>
                 </informacionAdicional>
-            </ciudades>
+            </ciudad>
         </pais>
     </continente>
     
     <continente nombre="Asia">
-        <descripcion>También está bien</descripcon>
-        <pais nombre="Japón" capital="Tokyo" poblacion="123.719.238" areaKm2="377.975">
-            <ciudades nombre="Nagoya" poblacion="2.266.693" lat="35°10′53″ N" long="136°54′23″ E">
+        <descripcion>También está bien</descripcion>
+        <pais nombre="Japón" capital="Tokyo" poblacion="123719238" areaKm2="377975">
+            <ciudad nombre="Nagoya" poblacion="2266693" lat="35.181446" long="136.906398">
                 <informacionAdicional>
                     <idioma>Japonés</idioma>
                     <monumentos>Nagoya-jō</monumentos>
                 </informacionAdicional>
-            </ciudades>
+            </ciudad>
         </pais>
-        <pais nombre="Corea del Sur" capital="Seúl" poblacion="52.473.612" areaKm2="100.339">
-            <ciudades nombre="Jeju" poblacion="492.466" lat="33°30′35″ N" long="126°31′19″ E">
+        <pais nombre="Corea del Sur" capital="Seúl" poblacion="52473612" areaKm2="100339">
+            <ciudad nombre="Jeju" poblacion="492466" lat="33.509722" long="126.521944">
                 <informacionAdicional>
                     <idioma>Coreano</idioma>
                     <monumentos>Samseonghyeol</monumentos>
                 </informacionAdicional>
-            </ciudades>
+            </ciudad>
         </pais>
     </continente>
     
 </datosGeograficos>
-
