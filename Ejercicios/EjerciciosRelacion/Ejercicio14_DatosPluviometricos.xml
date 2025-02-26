@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio 14 - Datos pluviométricos
+-->
+
+<datosPluviometricos ciudad="Málaga" periodo="último mes">
+    <resumen>
+        <![CDATA[
+            En el último mes, Málaga ha registrado varios episodios de lluvia, especialmente a finales de noviembre y principios de diciembre. 
+            A continuación, se muestran los datos de precipitaciones más destacados.               
+        ]]>
+    </resumen>
+    
+    <precipitaciones>
+        <dato fecha="15 Noviembre 2024">
+            <cantidad unidad="mm">18.2</cantidad>
+            <descripcion>Lluvias moderadas durante la tarde, con tormentas localizadas.</descripcion>
+        </dato>
+        <dato fecha="22 Noviembre 2024">
+            <cantidad unidad="mm">20.4</cantidad>
+            <descripcion>Tormentas intensas, algunas con granizo.</descripcion>
+        </dato>
+        <dato fecha="30 Noviembre 2024">
+            <cantidad unidad="mm">15.3</cantidad>
+            <descripcion>Lluvias ligeras con intervalos de cielos despejados.</descripcion>
+        </dato>
+        <dato fecha="05 Diciembre 2024">
+            <cantidad unidad="mm">25.7</cantidad>
+            <descripcion>Fuertes lluvias con ráfagas de viento.</descripcion>
+        </dato>
+        <dato fecha="10 Diciembre 2024">
+            <cantidad unidad="mm">10.1</cantidad>
+            <descripcion>Lluvias de corta duración, mayormente por la mañana.</descripcion>
+        </dato>
+    </precipitaciones>
+    
+    <fuente>Agencia Estatal de Meteorología (AEMET) y datos locales de Málaga.</fuente>
+</datosPluviometricos>
