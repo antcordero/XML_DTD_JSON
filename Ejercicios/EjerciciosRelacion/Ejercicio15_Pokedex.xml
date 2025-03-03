@@ -3,12 +3,10 @@
     Ejercicio 15 - Pokedex
 -->
 
-<pokedex>
-    <titulo>Pokedex</titulo>
-    <descripcion>Conoce algunos Pokémon y sus ataques</descripcion>
-    
+<pokedex>    
     <pokemons>
-        <pokemon img="pikachu.jpg" nombre="Pikachu" tipo="Eléctrico">
+        <pokemon nombre="Pikachu" tipo="Eléctrico">
+            <img>pikachu.jpg</img>
             <ataques>
                 <ataque1>Impactrueno</ataque1>
                 <ataque2>Cola de Hierro</ataque2>
@@ -17,7 +15,8 @@
             </ataques>
             <masInfo link="https://www.wikidex.net/wiki/Pikachu"/>
         </pokemon>
-        <pokemon img="bulbasur.jpg" nombre="Bulbasur" tipo="Planta/Veneno">
+        <pokemon nombre="Bulbasur" tipo="Planta/Veneno">
+            <img>Bulbasur.jpg</img>
             <ataques>
                 <ataque1>Latigazo</ataque1>
                 <ataque2>Placaje</ataque2>
@@ -26,7 +25,8 @@
             </ataques>
             <masInfo link="https://www.wikidex.net/wiki/Bulbasaur"/>
         </pokemon>
-        <pokemon img="charmander.jpg" nombre="Charmander" tipo="Fuego">
+        <pokemon  nombre="Charmander" tipo="Fuego">
+            <img>charmander.jpg</img>
             <ataques>
                 <ataque1>Placaje</ataque1>
                 <ataque2>Ascuas</ataque2>
