@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Reto 5 XML - Antonio Cordero Molina 1ºDAW
+-->
+
+
+
+<nomina periodo="01/01/2025 - 31/01/2025" totalDias="31">
+    
+    <empresa cif="B12345678">
+        <nombre>Tech Solutions S.L.</nombre>
+        <direccion>Calle Innovación 42, Madrid</direccion>
+    </empresa>
+    
+    <trabajador dni="12345678A" nss="12 345678 01" ct="2">
+        <nombre>Antonio Cordero Molina</nombre>
+        <categoria>Técnico Superior</categoria>
+        <departamento>Desarrollo</departamento>
+        <puesto>Desarrollo Web</puesto>
+        <fechaAlta>20/01/2025</fechaAlta>
+    </trabajador>
+    
+    <conceptos moneda="€">
+        <salarioBase tipo="devengos">1200.00</salarioBase>
+        <compTransporte tipo="devengos">150.00</compTransporte>
+        <pagaExtraProrr tipo="devengos">100.00</pagaExtraProrr>
+        <plusProductividad tipo="devengos">200.00</plusProductividad>
+        <irpf tipo="deducciones" porcentaje="15">210.00</irpf>
+        <SegSocial tipo="deducciones" porcentaje="6.35">100.00</SegSocial>
+        <desempleo tipo="deducciones" porcentaje="1.55">20.00</desempleo>
+        <formacionProf tipo="deducciones" porcentaje="0.1">10.00</formacionProf>
+    </conceptos>
+    
+    <totales moneda="€">
+        <totalDevengado>1650.00</totalDevengado>
+        <totalDeducido>340.00</totalDeducido>
+        <SalarioNeto>1310.00</SalarioNeto>
+    </totales>
+</nomina>
+
