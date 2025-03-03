@@ -5,7 +5,7 @@
 -->
 
 <servicioMeteorologico>
-    <peticion idioma="es" unidades="metricas">
+    <peticion idioma="es" unidades="metricas" id="1">
         <cliente token="ABC123XYZ">
             <aplicacion>MiAppClima</aplicacion>
         </cliente>
