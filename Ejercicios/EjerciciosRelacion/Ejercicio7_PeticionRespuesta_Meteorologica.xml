@@ -19,7 +19,7 @@
     </peticion>
 
     <!-- Respuesta del servidor -->
-    <respuesta ultimaActualizacion="2025-02-10T08:00:00Z">
+    <respuesta ultimaActualizacion="2025-02-10 08:00:00 ">
         <estado cod="200">
             <mensaje>Solicitud exitosa</mensaje>
         </estado>
