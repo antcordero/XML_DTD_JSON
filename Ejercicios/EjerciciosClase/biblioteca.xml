@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>    
+    <pelicula>        
+        <id></id>        
+        <nombre></nombre>        
+        <duracion></duracion>        
+        <año></año>
+        <director></director>  
+    </pelicula>        
+    <serie>        
+        <sinopsis>oppoipoipoipo</sinopsis>
+        <categorias>
+            <categoria>SciFi</categoria>
+            <categoria>Terror</categoria>
+        </categorias>
+        <temporadas>            
+            <temporada>                
+                <numero>1</numero>                
+                <totalepisodiso>24</totalepisodiso>                
+                <estado>emision</estado>                
+                <capitulos>                    
+                    <capitulo>                        
+                        <id>1</id>                        
+                        <nombre>wjuwdsf</nombre>                        
+                        <duracion>13</duracion>                        
+                        <año>2000</año>                    
+                    </capitulo>                    
+                    <capitulo>                        
+                        <id>2</id>                        
+                        <nombre>wjuwdsf</nombre>                        
+                        <duracion>13</duracion>                        
+                        <año>2000</año>                    
+                    </capitulo>                    
+                    <capitulo>                        
+                        <id>3</id>                        
+                        <nombre>wjuwdsf</nombre>                        
+                        <duracion>13</duracion>                        
+                        <año>2000</año>                    
+                    </capitulo>                    
+                    <capitulo>                        
+                        <id>4</id>                        
+                        <nombre>wjuwdsf</nombre>                        
+                        <duracion>13</duracion>                        
+                        <año>2000</año>                    
+                    </capitulo>                
+                </capitulos>            
+            </temporada>                                
+        </temporadas>    
+    </serie>
+</biblioteca> 

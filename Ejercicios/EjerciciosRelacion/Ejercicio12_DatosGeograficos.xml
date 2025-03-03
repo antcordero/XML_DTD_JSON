@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio 12 - Datos Geográficos
+-->
+
+<datosGeograficos>
+    <continente nombre="Europa">
+        <descripcion>Está bien</descripcion>
+        <pais nombre="España" capital="Madriz" poblacion="49077984" areaKm2="505978">
+            <ciudad nombre="Málaga" poblacion="591673" lat="36.722600" long="-4.423999">
+                <informacionAdicional>
+                    <idioma>Castellano</idioma>
+                    <monumentos>Alcazaba</monumentos>
+                </informacionAdicional>
+            </ciudad>
+            <ciudad nombre="Granada" poblacion="243059" lat="37.189396" long="-3.596639">
+                <informacionAdicional>
+                    <idioma>Castellano</idioma>
+                    <monumentos>Alhambra</monumentos>
+                </informacionAdicional>
+            </ciudad>
+        </pais>
+        <pais nombre="Italia" capital="Roma" poblacion="58990000" areaKm2="302073">
+            <ciudad nombre="Bolonia" poblacion="390850" lat="44.494383" long="11.342722">
+                <informacionAdicional>
+                    <idioma>Italiano</idioma>
+                    <monumentos>Garisenda e Asinelli</monumentos>
+                </informacionAdicional>
+            </ciudad>
+            <ciudad nombre="Verona" poblacion="243059" lat="45.438611" long="10.992778">
+                <informacionAdicional>
+                    <idioma>Italiano</idioma>
+                    <monumentos>Ponte Pietra</monumentos>
+                </informacionAdicional>
+            </ciudad>
+        </pais>
+    </continente>
+    
+    <continente nombre="Asia">
+        <descripcion>También está bien</descripcion>
+        <pais nombre="Japón" capital="Tokyo" poblacion="123719238" areaKm2="377975">
+            <ciudad nombre="Nagoya" poblacion="2266693" lat="35.181446" long="136.906398">
+                <informacionAdicional>
+                    <idioma>Japonés</idioma>
+                    <monumentos>Nagoya-jō</monumentos>
+                </informacionAdicional>
+            </ciudad>
+        </pais>
+        <pais nombre="Corea del Sur" capital="Seúl" poblacion="52473612" areaKm2="100339">
+            <ciudad nombre="Jeju" poblacion="492466" lat="33.509722" long="126.521944">
+                <informacionAdicional>
+                    <idioma>Coreano</idioma>
+                    <monumentos>Samseonghyeol</monumentos>
+                </informacionAdicional>
+            </ciudad>
+        </pais>
+    </continente>
+    
+</datosGeograficos>

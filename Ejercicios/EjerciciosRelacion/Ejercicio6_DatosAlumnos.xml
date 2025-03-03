@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8?>
+
+<!-- 
+    Ejercicio 6 - Exportación de Datos Personales de Alumnos
+-->
+
+<alumnos>
+    <alumno id="2025001" nombre="Elsa" apellidos="Pato" fechaNac="15/04/2005">
+        <datosContacto>
+            <direccion>Calle Mayor 12, Madrid, España</direccion>
+            <telefono>+34 600123456</telefono>
+            <correoElectronico>elsa.pato@example.com</correoElectronico>
+        </datosContacto>
+
+        <informacionAcademica grupo="2DAW" curso="24/25" matricula="Activo"/>
+
+        <datosAdicionales>
+            <observaciones>Ninguna</observaciones>
+            <adaptaciones>No requiere adaptaciones</adaptaciones>
+        </datosAdicionales>
+    </alumno>
+
+    <alumno id="2025002" nombre="Iván" apellidos="Almonte" fechaNac="22/11/2004">
+        <datosContacto>
+            <direccion>Avenida Libertad 45, Valencia, España</direccion>
+            <telefono>+34 650987654</telefono>
+            <correoElectronico>ivan.almonte@example.com</correoElectronico>
+        </datosContacto>
+
+        <informacionAcademica grupo="1DAW" curso="24/25" matricula="Activo"/>
+
+        <datosAdicionales>
+            <observaciones>Interés en desarrollo web</observaciones>
+            <adaptaciones>Extensión de tiempo en exámenes</adaptaciones>
+        </datosAdicionales>
+    </alumno>
+</alumnos>
+
+

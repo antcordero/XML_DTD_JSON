@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+  
+  <clase dia="lunes" inicio="8:00" fin="9:00">Matemáticas</clase>
+  <clase dia="lunes" inicio="9:00" fin="10:00">Historia</clase>
+
+  <clase>
+    <asignatura>Inglés</asignatura>
+    <dia>Miércoles</dia>
+    <hora_inicio>10:00</hora_inicio>
+    <hora_fin>11:00</hora_fin>
+  </clase>
+  <clase>
+    <asignatura>Ciencias</asignatura>
+    <dia>Jueves</dia>
+    <hora_inicio>12:30</hora_inicio>
+    <hora_fin>13:30</hora_fin>
+  </clase>
+  <clase>
+    <asignatura>Educación Física</asignatura>
+    <dia>Viernes</dia>
+    <hora_inicio>13:30</hora_inicio>
+    <hora_fin>14:30</hora_fin>
+  </clase>
+</horario>
+ 

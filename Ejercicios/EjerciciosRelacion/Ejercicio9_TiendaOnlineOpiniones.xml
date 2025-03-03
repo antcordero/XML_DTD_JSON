@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 9 - Listado de Productos de una Tienda Online con Opiniones -->
+<tiendaOnline>
+    <producto codigo="ID-001" categoria="Electrónica" stock="20" marca="TechBrand" valoracionGeneral="4.5">
+        <nombre>Smartphone X100</nombre>
+        <descripcion>Teléfono inteligente con pantalla AMOLED de 6.5 pulgadas y 128GB de almacenamiento.</descripcion>
+        <precio>599.99</precio>
+        <colores>Negro, Azul, Rojo</colores>
+        <imagenes>
+            <imagen tipo="principal">https://tienda.com/img/smartphone-x100.jpg</imagen>
+            <imagen tipo="adicional">https://tienda.com/img/smartphone-x100-lateral.jpg</imagen>
+            <imagen tipo="adicional">https://tienda.com/img/smartphone-x100-trasera.jpg</imagen>
+        </imagenes>
+        <descuento precioOriginal="699.99" precioDescuento="599.99" validoHasta="2025-02-28"/>
+        <opiniones>
+            <opinion valoracion="5" fecha="2025-01-15">
+                <cliente nombre="Carlos Pérez" verificado="true"/>
+                <comentario>Excelente teléfono, rápido y con buena batería.</comentario>
+            </opinion>
+            <opinion valoracion="4" fecha="2025-01-18">
+                <cliente nombre="María López" verificado="false"/>
+                <comentario>Buen diseño, pero esperaba mejor cámara.</comentario>
+            </opinion>
+        </opiniones>
+    </producto>
+
+    <producto codigo="ID-002" categoria="Ropa" stock="50" marca="RunFast" valoracionGeneral="4.8">
+        <nombre>Zapatillas Deportivas UltraRun</nombre>
+        <descripcion>Zapatillas deportivas con tecnología de amortiguación avanzada.</descripcion>
+        <precio>89.99</precio>
+        <tamaños>38, 39, 40, 41, 42, 43, 44</tamaños>
+        <colores>Blanco, Negro, Gris</colores>
+        <imagenes>
+            <imagen tipo="principal">https://tienda.com/img/zapatillas-ultrarun.jpg</imagen>
+            <imagen tipo="adicional">https://tienda.com/img/zapatillas-ultrarun-suela.jpg</imagen>
+        </imagenes>
+        <opiniones>
+            <opinion valoracion="5" fecha="2025-02-05">
+                <cliente nombre="Javier Martín" verificado="true"/>
+                <comentario>Muy cómodas y resistentes, perfectas para correr.</comentario>
+            </opinion>
+        </opiniones>
+    </producto>
+</tiendaOnline>
+
+
+

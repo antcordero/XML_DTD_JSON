@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL MPL" /> <!-- ERROR: no se pueden repetir los atributos, puede tener más de un valor pero no se puede repetir-->
+    <programa nombre="OpenOffice.org" licencia="LGPL"/> <!-- ERROR: le faltan las comillas al valor de la licencia -->
+    <programa nombre="Inkscape" licencia="GPL" />
+</programas>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+XMl de proyecto integrado
+Francisco Romero
+-->
+
+<proyecto ciclo="DAM" curso="2">
+    
+    <alumno>
+        <nombre>Gerardo</nombre>
+        <nif>fdsdsadsa</nif>
+        <edad>23</edad>
+        <apellidos>Marín Jaime</apellidos>
+    </alumno>
+        
+    <titulo>FacePi</titulo>
+    <intro>dsadsa dsadsdsadsa</intro>
+    <finalidad>kopskdopsakipdsa dsadsa</finalidad>
+    
+    <objetivos>     
+        <objetivo>Adquisición del HW</objetivo>
+        <objetivo>Instalación</objetivo>
+        <objetivo>Programación de scripts</objetivo>
+    </objetivos>
+    
+    <medios>
+        <medio>Equipo</medio>
+        <medio>Raspberry</medio>
+        <medio>Camara</medio>
+    </medios>
+    
+    <planificación>dsadasdsadsa</planificación>
+    <bibliografia/>
+    
+</proyecto>
+

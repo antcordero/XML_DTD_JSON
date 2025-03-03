@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Ejercicio 7 - Petición y Respuesta XML de Información Meteorológica
+-->
+
+<servicioMeteorologico>
+    <peticion idioma="es" unidades="metricas">
+        <cliente token="ABC123XYZ">
+            <aplicacion>MiAppClima</aplicacion>
+        </cliente>
+        <localizacion lat="40.4168" long="3.7038">
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28001</codigoPostal>
+        </localizacion>
+        <datosSolicitados>
+            <condicionesActuales>true</condicionesActuales>
+            <previsionDiaria>true</previsionDiaria>
+            <datosHistoricos>false</datosHistoricos>
+        </datosSolicitados>
+    </peticion>
+
+    <!-- Respuesta del servidor -->
+    <respuesta ultimaActualizacion="2025-02-10T08:00:00Z">
+        <estado cod="200">
+            <mensaje>Solicitud exitosa</mensaje>
+        </estado>
+        <datosMeteorologicos>
+            <condicionesActuales>
+                <temperatura unidadTemp="°C">15</temperatura>
+                <humedad unidadHum="%">72</humedad>
+                <velocidadViento unidadVel="km/h">10</velocidadViento>
+                <condicion>Parcialmente nublado</condicion>
+            </condicionesActuales>
+            <prevision>
+                <dia>
+                    <fecha>2025-02-27</fecha>
+                    <temperaturaMaxima>18</temperaturaMaxima>
+                    <temperaturaMinima>10</temperaturaMinima>
+                    <condicion>Despejado</condicion>
+                </dia>
+                <dia>
+                    <fecha>2025-02-28</fecha>
+                    <temperaturaMaxima>16</temperaturaMaxima>
+                    <temperaturaMinima>9</temperaturaMinima>
+                    <condicion>Lluvia ligera</condicion>
+                </dia>
+            </prevision>
+        </datosMeteorologicos>
+        <mensajesError/>
+    </respuesta>
+</servicioMeteorologico>

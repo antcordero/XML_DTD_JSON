@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 10 - Horario de Exámenes del Ciclo Formativo -->
+<cicloFormativo nombre="Desarrollo de Aplicaciones Web" duracion="2 años" añoAcademico="2024-2025">
+    <cursos>
+        <curso numero="1">
+            <examen fecha="2025-06-10" horaInicio="09:00" duracion="2 horas" aula="Aula 101" profesor="María Rodríguez" tipo="Teórico">
+                <asignatura>Programación</asignatura>
+                <indicaciones>Se permite el uso de apuntes en papel.</indicaciones>
+            </examen>
+            <examen fecha="2025-06-12" horaInicio="11:00" duracion="2 horas" aula="Aula 102" profesor="Juan Pérez" tipo="Práctico">
+                <asignatura>Base de Datos</asignatura>
+                <indicaciones>Se requiere ordenador con MySQL instalado.</indicaciones>
+            </examen>
+        </curso>
+        <curso numero="2">
+            <examen fecha="2025-06-15" horaInicio="10:00" duracion="1 hora y 30 minutos" aula="Aula 201" profesor="Laura Fernández" tipo="Mixto">
+                <asignatura>Desarrollo Web en Entorno Cliente</asignatura>
+                <indicaciones>Parte teórica en papel, parte práctica en ordenador.</indicaciones>
+            </examen>
+            <examen fecha="2025-06-18" horaInicio="08:30" duracion="2 horas" aula="Aula 202" profesor="David Gómez" tipo="Práctico">
+                <asigantura>Implementación de Aplicaciones Web</asigantura>
+                <indicaciones>Se requiere acceso a servidor Apache y base de datos.</indicaciones>
+            </examen>
+        </curso>
+    </cursos>
+</cicloFormativo>

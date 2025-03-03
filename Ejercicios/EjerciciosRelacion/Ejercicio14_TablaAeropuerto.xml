@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio 14 - Tabla Aeropuerto llegadas y salidas
+-->
+
+<aeropuerto codigoIATA="AGP">
+    <nombre>Pablo Ruiz Picasso</nombre>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    
+    <trafico>
+        <!-- Primera fila de la tabla llegadas -->
+        <vuelo numero="1023" hora="08:30" estado="en horario" tipo="llegada">
+            <aerolinea>Iberia</aerolinea>
+            <origen>Madrid</origen>
+            <terminal>1</terminal>
+            <puerta>A4</puerta>
+        </vuelo>
+        <!-- Segunda fila de la tabla llegadas -->
+        <vuelo numero="2056" hora="09:00" estado="retrasado" tipo="llegada">
+            <aerolinea>Ryanair</aerolinea>
+            <origen>Paris</origen>
+            <terminal>2</terminal>
+            <puerta>B6</puerta>
+        </vuelo>
+        <!-- Tercera fila de la tabla llegadas -->
+        <vuelo numero="3012" hora="10:15" estado="cancelado" tipo="llegada">
+            <aerolinea>Iberia</aerolinea>
+            <origen>New York</origen>
+            <terminal>3</terminal>
+            <puerta>C3</puerta>
+        </vuelo> 
+        <!-- Primera fila de la tabla Salidas -->
+        <vuelo numero="5021" hora="11:30" estado="en horario" tipo="salida">
+            <aerolinea>Lufthansa</aerolinea>
+            <origen>Barcelona</origen>
+            <terminal>2</terminal>
+            <puerta>D1</puerta>
+        </vuelo>  
+        <!-- Segunda fila de la tabla Salidas -->
+        <vuelo numero="4098" hora="12:45" estado="retrasado" tipo="salida">
+            <aerolinea>British Airways</aerolinea>
+            <origen>Los Ángeles</origen>
+            <terminal>1</terminal>
+            <puerta>A2</puerta>
+        </vuelo>  
+        <!-- Tercera fila de la tabla Salidas -->
+        <vuelo numero="7083" hora="14:00" estado="cancelado" tipo="salida">
+            <aerolinea>American Airlanes</aerolinea>
+            <origen>Tokyo</origen>
+            <terminal>3</terminal>
+            <puerta>E5</puerta>
+        </vuelo>      
+    </trafico>
+    
+</aeropuerto>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca[
+<!ELEMENT biblioteca (libro+, revista*)>
+<!ELEMENT libro (titulo, autor, genero+, paginas?, idioma?)>
+<!ELEMENT revista (titulo, publicacion, tematica)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT publicacion (#PCDATA)>
+<!ELEMENT tematica (#PCDATA)>
+]>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <genero>Novela</genero>
+        <genero>Medieval</genero>
+        <paginas>1260</paginas>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Ciencia ficción</genero>
+        <idioma>Inglés</idioma>
+    </libro>
+    <revista>
+        <titulo>National Geographic</titulo>
+        <publicacion>Mensual</publicacion>
+        <tematica>Ciencia y naturaleza</tematica>
+    </revista>
+</biblioteca>

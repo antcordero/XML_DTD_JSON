@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Ejercicio 2 - Registro de Notas del Módulo de Lenguaje de Marcas
+-->
+
+<registroNotas>
+    <curso año="2024/2025">
+        <grupo id="LM-DAW1">
+            <alumno id="001">
+                <nombre>Elena</nombre>
+                <apellidos>Nito Del Bosque</apellidos>
+                <evaluaciones>
+                    <evaluacion tipo="Ejercicio Propuesto">
+                        <nota>8.5</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Ejercicio Clase">
+                        <nota>9.0</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Examen Parcial">
+                        <nota>7.5</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Examen Final">
+                        <nota>8.0</nota>
+                    </evaluacion>
+                </evaluaciones>
+                <notaMedia>8.25</notaMedia>
+            </alumno>
+            <alumno id="002">
+                <nombre>Esteban</nombre>
+                <apellidos>Quito</apellidos>
+                <evaluaciones>
+                    <evaluacion tipo="Ejercicio Propuesto">
+                        <nota>7.5</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Ejercicio Clase">
+                        <nota>8.0</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Examen Parcial">
+                        <nota>6.5</nota>
+                    </evaluacion>
+                    <evaluacion tipo="Examen Final">
+                        <nota>7.0</nota>
+                    </evaluacion>
+                </evaluaciones>
+                <notaMedia>7.25</notaMedia>
+            </alumno>
+        </grupo>
+    </curso>
+</registroNotas>
+
+

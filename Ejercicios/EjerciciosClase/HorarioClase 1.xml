@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Jiaxin Ji
+Horario de clase
+-->
+<horario>
+    <lunes>
+        <asignatura inicio="8:00" fin="9:00">Lengua</asignatura>
+        <asignatura inicio="9:00" fin="10:00">Ingles</asignatura>
+        <asignatura inicio="10:00" fin="11:00">Matemáticas</asignatura>
+    </lunes>
+    <martes>
+        <asignatura inicio="8:00" fin="9:00">Matemáticas</asignatura>
+    </día>
+</horario>
+

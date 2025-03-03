@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Listado de clase
+Francisco Romero
+-->
+
+<clase>
+
+    <alumno dni="371289732">
+        <nombreCompleto>Francisco Romero</nombreCompleto>
+        <nombre>Francisco</nombre>
+        <apellido>Romero</apellido>
+        <!-- Indica el ciclo actual-->
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <email>francisco@cesur.com</email>
+        <matricula moneda="€">1000</matricula>
+        <nac>12/12/2012</nac>
+        <modulos>
+            <modulo nombre="Lenguaje de marcas" />
+            <modulo>Acceso a datos</modulo>
+        </modulos>
+    </alumno>
+    <alumno dni="3213213">
+        <nombre>Francisco</nombre>
+        <apellido>Romero</apellido>
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <nacimiento>12 de Diciembre de 2012</nacimiento>
+        <email>francisco@cesur.com</email>
+    </alumno>    
+</clase>

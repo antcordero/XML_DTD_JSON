@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Ejercicio 4 - Base de Datos de Películas
+-->
+
+<baseDeDatosPeliculas>
+    <pelicula titulo="Iception" director="Christopher Nolan" añoEstreno="2010" genero="Ciencia Ficción">        
+        <reparto>
+            <actor>
+                <nombre>Leonardo DiCaprio</nombre>
+                <rol>Dom Cobb</rol>
+            </actor>
+            <actor>
+                <nombre>Joseph Gordon-Levitt</nombre>
+                <rol>Arthur</rol>
+            </actor>
+            <actor>
+                <nombre>Elliot Page</nombre>
+                <rol>Ariadne</rol>
+            </actor>
+        </reparto>
+
+        <produccion>
+            <pais>Estados Unidos</pais>
+            <estudio>Warner Bros</estudio>
+        </produccion>
+
+        <informacionAdicional duracion="148" calificación="PG-13">
+            <puntuacionCritica porcentaje="87">8.7</puntuacionCritica>
+        </informacionAdicional>
+    </pelicula>
+
+    <pelicula titulo="Parasite" director="Bong Joon-ho" añoEstreno="2019" genero="Drama">        
+        <reparto>
+            <actor>
+                <nombre>Song Kang-ho</nombre>
+                <rol>Kim Ki-taek</rol>
+            </actor>
+            <actor>
+                <nombre>Choi Woo-shik</nombre>
+                <rol>Kim Ki-woo</rol>
+            </actor>
+            <actor>
+                <nombre>Park So-dam</nombre>
+                <rol>Kim Ki-jung</rol>
+            </actor>
+        </reparto>
+
+        <produccion>
+            <pais>Corea del Sur</pais>
+            <estudio>Barunson E&A</estudio>
+        </produccion>
+
+        <informacionAdicional duracion="123" calificación="R">
+            <puntuacionCritica porcentaje="96">9.6</puntuacionCritica>
+        </informacionAdicional>
+    </pelicula>
+</baseDeDatosPeliculas>
+
+

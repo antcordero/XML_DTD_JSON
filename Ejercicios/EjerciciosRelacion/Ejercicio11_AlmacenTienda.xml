@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Ejercicio 11 - Inventario de Almacén de Tienda de Informática 
+-->
+    
+<almacen>
+    <producto codigo="CPU-001" categoria="Procesadores" precio="389.99" marca="Intel" stock="15">
+        <nombre>Intel Core i7-12700K</nombre>
+        <descripcion>Procesador Intel Core i7 de 12ª generación con 12 núcleos y 20 hilos.</descripcion>
+        <ubicacion pasillo="3" altura="Estantería 2" posicion="Sección A"/>
+        <variantes>
+            <modelo>i7-12700KF</modelo>
+            <modelo>i7-12700</modelo>
+        </variantes>
+        <proveedor nombre="TechDistribuciones S.L." ultimaReposicion="2025-02-05"/>
+    </producto>
+
+    <producto codigo="RAM-002" categoria="Memorias RAM" precio="69.99" marca="Kingston" stock="30">
+        <nombre>Kingston Fury Beast 16GB DDR4 3200MHz</nombre>
+        <descripcion>Módulo de memoria RAM DDR4 de 16GB a 3200MHz.</descripcion>
+        <ubicacion pasillo="5" altura="Estante 1" posicion="Sección B"/>
+        <variantes>
+            <tamaño>8GB</tamaño>
+            <tamaño>32GB</tamaño>
+            <color>Negro</color>
+        </variantes>
+        <proveedor nombre="Memoria Express S.A." ultimaReposicion="2025-01-28"/>
+    </producto>
+
+    <producto codigo="PER-003" categoria="Periféricos" precio="79.99" marca="Logitech" stock="25">
+        <nombre>Logitech G502 HERO</nombre>
+        <descripcion>Ratón gaming con sensor HERO 25K y 11 botones programables.</descripcion>
+        <ubicacion pasillo="2" altura="Estante 3" posicion="Sección C"/>
+        <variantes>
+            <color>Negro</color>
+            <color>Blanco</color>
+        </variantes>
+        <proveedor nombre="Gaming Supplies Ltd." ultimaReposicion="2025-02-02"/>
+    </producto>
+</almacen>

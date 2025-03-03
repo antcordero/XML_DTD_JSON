@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Ejercicio 5 - Registro de Datos de Sensores Ambientales
+-->
+
+<redSensores>
+    <informacionGlobal zona="Malaga" responsable="UMA"/>
+    <sensor id="S001" estado="Activo">
+        <ubicacion>
+            <latitud>40.7128</latitud>
+            <longitud>-74.0060</longitud>
+        </ubicacion>
+        <tipoMedicion>Temperatura</tipoMedicion>
+        
+        <registros>
+            <registro>
+                <marcaTiempo>2025-02-10T08:00:00</marcaTiempo>
+                <valor unidad="°C">22.5</valor>
+                <alerta>Ninguna</alerta>
+            </registro>
+            <registro>
+                <marcaTiempo>2025-02-10T12:00:00</marcaTiempo>
+                <valor unidad="°C">28.1</valor>
+                <alerta>Advertencia: Temperatura elevada</alerta>
+            </registro>
+        </registros>
+    </sensor>
+    
+    <sensor id="S002" estado="Inactivo">
+        <ubicacion>
+            <latitud>34.0522</latitud>
+            <longitud>-118.2437</longitud>
+        </ubicacion>
+        <tipoMedicion>CO2</tipoMedicion>
+        
+        <registros>
+            <registro>
+                <marcaTiempo>2025-02-09T18:30:00</marcaTiempo>
+                <valor unidad="ppm">400</valor>
+                <alerta>Ninguna</alerta>
+            </registro>
+            <registro>
+                <marcaTiempo>2025-02-09T20:45:00</marcaTiempo>
+                <valor unidad="ppm">550</valor>
+                <alerta>Peligro: Alta concentración de CO2</alerta>
+            </registro>
+        </registros>
+    </sensor>
+
+</redSensores>
+

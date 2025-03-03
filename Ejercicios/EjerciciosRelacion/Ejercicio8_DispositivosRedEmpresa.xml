@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Ejercicio 8 - Inventario de Dispositivos de Red de una Empresa
+-->
+
+<inventarioRed>
+    <dispositivo tipo="Servidor" id="ID-001" estado="activo" ultimaActucalizacion="2025-02-10">
+        <nombre>Servidor-Central</nombre>
+        <configuracion dirIP="192.168.1.10">
+            <modelo>ProLiant DL380</modelo>
+            <fabricante>HP</fabricante>
+            <sistemaOperativo>Ubuntu Server 22.04</sistemaOperativo>
+        </configuracion>
+        <informacionAdicional>
+            <ubicacion>Centro de Datos - Rack 5</ubicacion>
+            <vlan>10</vlan>
+            <responsable>
+                <nombre>Susana Oria</nombre>
+                <email>susana.oria@empresa.com</email>
+                <telefono>+34 123 465 789</telefono>
+            </responsable>
+        </informacionAdicional>
+        <servidor>
+            <cargaSistema>45%</cargaSistema>
+            <capacidadAlmacenamiento>2TB</capacidadAlmacenamiento>
+        </servidor>
+    </dispositivo>
+
+    <dispositivo tipo="Router" id="ID-002" estado="activo" ultimaActualizacion="2025-02-09">
+        <nombre>Router-Principal</nombre>
+        <configuracion dirIP="192.18.1.1">
+            <modelo>Cisco ISR 4331</modelo>
+            <fabricante>Cisco</fabricante>
+            <firmware>IOS-XE 17.6.1</firmware>
+        </configuracion>
+        <informacionAdicional>
+            <ubicacion>Sala de Comunicaciones</ubicacion>
+            <puertos>4</puertos>
+            <vlan>Troncal</vlan>
+            <responsable>
+                <nombre>Elba Lazo</nombre>
+                <email>elba.lazo@empresa.com</email>
+                <telefono>+34 987 654 321</telefono>
+            </responsable>
+        </informacionAdicional>
+    </dispositivo>
+</inventarioRed>
+
+
+
