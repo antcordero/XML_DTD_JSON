@@ -14,9 +14,7 @@
             <codigoPostal>28001</codigoPostal>
         </localizacion>
         <datosSolicitados>
-            <condicionesActuales>true</condicionesActuales>
-            <previsionDiaria>true</previsionDiaria>
-            <datosHistoricos>false</datosHistoricos>
+            <opcion>actual</opcion>
         </datosSolicitados>
     </peticion>
 
@@ -32,20 +30,6 @@
                 <velocidadViento unidadVel="km/h">10</velocidadViento>
                 <condicion>Parcialmente nublado</condicion>
             </condicionesActuales>
-            <prevision>
-                <dia>
-                    <fecha>2025-02-27</fecha>
-                    <temperaturaMaxima>18</temperaturaMaxima>
-                    <temperaturaMinima>10</temperaturaMinima>
-                    <condicion>Despejado</condicion>
-                </dia>
-                <dia>
-                    <fecha>2025-02-28</fecha>
-                    <temperaturaMaxima>16</temperaturaMaxima>
-                    <temperaturaMinima>9</temperaturaMinima>
-                    <condicion>Lluvia ligera</condicion>
-                </dia>
-            </prevision>
         </datosMeteorologicos>
         <mensajesError/>
     </respuesta>
