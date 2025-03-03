@@ -4,38 +4,35 @@
 -->
 
 <pokedex>    
-    <pokemons>
-        <pokemon nombre="Pikachu" tipo="Eléctrico">
-            <img>pikachu.jpg</img>
-            <ataques>
-                <ataque1>Impactrueno</ataque1>
-                <ataque2>Cola de Hierro</ataque2>
-                <ataque3>Rayo</ataque3>
-                <ataque4>Electrobola</ataque4>
-            </ataques>
-            <masInfo link="https://www.wikidex.net/wiki/Pikachu"/>
-        </pokemon>
-        <pokemon nombre="Bulbasur" tipo="Planta/Veneno">
-            <img>Bulbasur.jpg</img>
-            <ataques>
-                <ataque1>Latigazo</ataque1>
-                <ataque2>Placaje</ataque2>
-                <ataque3>Somnifero</ataque3>
-                <ataque4>Látigo Cepa</ataque4>
-            </ataques>
-            <masInfo link="https://www.wikidex.net/wiki/Bulbasaur"/>
-        </pokemon>
-        <pokemon  nombre="Charmander" tipo="Fuego">
-            <img>charmander.jpg</img>
-            <ataques>
-                <ataque1>Placaje</ataque1>
-                <ataque2>Ascuas</ataque2>
-                <ataque3>Gruñido</ataque3>
-                <ataque4>Embestida</ataque4>
-            </ataques>
-            <masInfo link="https://www.wikidex.net/wiki/Charmander"/>
-        </pokemon>
-    </pokemons>
-    
+    <pokemon nombre="Pikachu" tipo="Eléctrico">
+        <imagen>pikachu.jpg</imagen>
+        <ataques>
+            <ataque>Impactrueno</ataque>
+            <ataque>Cola de Hierro</ataque>
+            <ataque>Rayo</ataque>
+            <ataque>Electrobola</ataque>
+        </ataques>
+        <masInfo link="https://www.wikidex.net/wiki/Pikachu"/>
+    </pokemon>
+    <pokemon nombre="Bulbasur" tipo="Planta/Veneno">
+        <imagen>Bulbasur.jpg</imagen>
+        <ataques>
+            <ataque>Latigazo</ataque>
+            <ataque>Placaje</ataque>
+            <ataque>Somnifero</ataque>
+            <ataque>Látigo Cepa</ataque>
+        </ataques>
+        <masInfo link="https://www.wikidex.net/wiki/Bulbasaur"/>
+    </pokemon>
+    <pokemon  nombre="Charmander" tipo="Fuego">
+        <imagen>charmander.jpg</imagen>
+        <ataques>
+            <ataque>Placaje</ataque>
+            <ataque>Ascuas</ataque>
+            <ataque>Gruñido</ataque>
+            <ataque>Embestida</ataque>
+        </ataques>
+        <masInfo link="https://www.wikidex.net/wiki/Charmander"/>
+    </pokemon>
 </pokedex>
 
