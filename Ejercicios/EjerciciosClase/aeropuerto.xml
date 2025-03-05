@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Llegadas y salidas de un aeropuerto
+-->
+
+<aeropuerto codigo="AGP">
+    <nombre>Pablo Ruiz Picasso</nombre>
+    <ciudad>Málaga</ciudad>
+    <pais>Pais</pais>
+    
+    <trafico>
+        <vuelo numero="321321" hora="00:00" estado="en horario" tipo="llegada">
+            <aerolinea>Iberia</aerolinea>
+            <origen>Paris</origen>
+            <terminal>1</terminal>
+            <puerta>A4</puerta>
+        </vuelo>
+        <vuelo numero="321321" hora="00:00" estado="en horario" tipo="llegada">
+            <aerolinea>Iberia</aerolinea>
+            <ciudad>Paris</ciudad>
+            <terminal>1</terminal>
+            <puerta>A4</puerta>
+        </vuelo>        
+
+        <vuelo numero="321321" hora="00:00" estado="en horario" tipo="salida">
+            <aerolinea>Iberia</aerolinea>
+            <ciudad>Paris</ciudad>
+            <terminal>1</terminal>
+            <puerta>A4</puerta>
+        </vuelo>        
+    </trafico>
+    
+</aeropuerto>
+
