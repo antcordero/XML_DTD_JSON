@@ -6,9 +6,11 @@
 <!DOCTYPE blog [
     
     <!ELEMENT blog (entrada*) >
+    <!-- <!ELEMENT entrada (titulo | contenido | fecha) > Esto funciona como un OR en programación, las comas es como si fuese el AND -->
     <!ELEMENT entrada (titulo, contenido, fecha) >
         <!ATTLIST entrada id CDATA #REQUIRED >
         <!ATTLIST entrada url CDATA #IMPLIED >
+        <!ATTLIST entrada publicado (si | no | archivado) CDATA #IMPLIED >
     
     <!ELEMENT titulo (#PCDATA)  >
     <!ELEMENT contenido (#PCDATA)  >
@@ -17,14 +19,19 @@
 ]>
 
 <blog>
-    <entrada id="34" url="https://">
+    <entrada id="34" url="https://" publicado="si">
         <titulo>Entrada1</titulo>
-        <contenido>ñ´dsao`pdosa`pdsao`pdsa ç</contenido>
+        <contenido>Tomando apuntes porque petii el delegao no ha venido</contenido>
         <fecha>2024-12-20</fecha>
     </entrada>
-    <entrada id="34" url="https://">
+    <entrada id="34" url="https://" publicado="no">
         <titulo>Entrada2</titulo>
-        <contenido>ñ´dsao`pdosa`pdsao`pdsa ç</contenido>
+        <contenido>Le duele la barriga :'( </contenido>
+        <fecha>2024-12-18</fecha>
+    </entrada>
+    <entrada id="34" url="https://" publicado="archivado">
+        <titulo>Entrada2</titulo>
+        <contenido>Emosido engañado</contenido>
         <fecha>2024-12-18</fecha>
     </entrada>
 </blog>
