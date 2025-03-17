@@ -1,0 +1,17 @@
+[
+    {
+    "id": 543,
+    "titulo": "apuntes pal deleago",
+    "contenido": "hoy no vino, está malito :(",
+    "fecha" : "17/03/2025",
+    "publicado": true,
+    "cantidad": 4,
+    "eliminado": null
+    },
+    {
+        "id": 543,
+        "titulo": "ortro titulo",
+        "contenido": "otro contenido"
+    },
+    {}
+]
