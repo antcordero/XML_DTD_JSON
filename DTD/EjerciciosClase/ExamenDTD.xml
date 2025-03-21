@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    - Ejercicio de clase: Hacer el DTD del ejercicio práctico del exámen
+-->
+
+<!-- DTD  -->
+<!DOCTYPE aplicacion [
+    <!ELEMENT aplicacion (ofertas*) >
+        <!ELEMENT ofertas (oferta*)>
+            <!ATTLIST ofertas idUsusario ID #REQUIRED>
+                <!ELEMENT oferta (tituloEmpleo, nombreEmpresa, descripcion, fechaInicio, salario, dirCorreo, webs)>
+                <!ATTLIST oferta estado (Cancelado | Activo) #REQUIRED>
+                
+        <!ELEMENT tituloEmpleado (#PCDATA)>
+        <!ELEMENT nombreEmpresa (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT fechaInicio (día, mes, año)>
+            <!ELEMENT dia (#PCDATA)>
+            <!ELEMENT mes (#PCDATA)>
+            <!ELEMENT año (#PCDATA)>
+        <!ELEMENT salario (#PCDATA)>
+            <!ATTLIST salario unidad CDATA #REQUIRED>
+        <!ELEMENT dirCorreo (#PCDATA)>
+        <!ELEMENT webs (web*)>
+            <!ELEMENT web (#PCDATA)>
+                <!ATTLIST web url CDATA #REQUIRED>
+]>
+
+
+<!-- XML  -->
+<aplicacion>
+    <!-- información detallada de las ofertas con el identificador del usuario al que pertenecen -->
+    <ofertas idUsuario="U001">
+        <!-- oferta 1-->
+        <oferta estado="Cancelado">
+            <tituloEmpleo>Desarrollador Full Stack</tituloEmpleo>
+            <nombreEmpresa>InnovateTech</nombreEmpresa>
+            <descripcion>
+                <![CDATA[
+                        Descripción detallada del puesto de Desarrollador Full-Stack....               
+                ]]>
+            </descripcion>
+            <fechaIncicio>
+                    <dia>10</dia>
+                    <mes>Marzo</mes>
+                    <año>2025</año>
+            </fechaIncicio>
+            <salario unidad="EUR">40000</salario>
+            <dirCorreo>antoniocorderomn@gmail.com</dirCorreo>
+            <webs>
+                <web urlOferta="www.linkedin.es/oferta-desarrollador-fullstack-innovatetech">LinkedIn</web> 
+                <web urlOferta="www.glassdor.es/oferta-desarrollador-fullstack-innovatetech">Glassdoor</web> 
+                <web urlOferta="www.indeed.es/oferta-desarrollador-fullstack-innovatetech">Indeed</web> 
+            </webs>
+        </oferta>
+        <!-- Oferta 2 -->
+        <oferta estado="Cancelado">
+            <tituloEmpleo>Desarrollador Frontend</tituloEmpleo>
+            <nombreEmpresa>CodeCrafters</nombreEmpresa>
+            <descripcion>
+                <![CDATA[
+                        Descripción detallada del puesto de Desarrollador Fronted....              
+                ]]>
+            </descripcion>
+            <fechaIncicio>
+                <dia>9</dia>
+                <mes>Marzo</mes>
+                <año>2025</año>
+            </fechaIncicio>
+            <salario unidad="EUR">35000</salario>
+            <dirCorreo>antoniocorderomn@gmail.com</dirCorreo>
+            <webs>
+                <web urlOferta="www.indeed.es/oferta-desarrollador-frontend-codecrafters">Indeed</web> 
+                <web urlOferta="www.glassdor.es/oferta-desarrollador-frontend-codecrafters">Glassdoor</web> 
+            </webs>
+        </oferta>
+         <!-- Oferta 3 -->
+        <oferta estado="Cancelado">
+            <tituloEmpleo>Desarrollador Backend</tituloEmpleo>
+            <nombreEmpresa>DataInnovators</nombreEmpresa>
+            <descripcion>
+                    <![CDATA[
+                            Descripción detallada del puesto de Desarrollador Backend....              
+                    ]]>
+            </descripcion>
+            <fechaIncicio>
+                <dia>8</dia>
+                <mes>Marzo</mes>
+                <año>2025</año>
+            </fechaIncicio>
+            <salario unidad="EUR">45000</salario>
+            <dirCorreo>antoniocorderomn@gmail.com</dirCorreo>
+            <webs>
+                <web urlOferta="www.monster.es/oferta-desarrollador-backend-datainnovators">Monster</web> 
+            </webs>
+        </oferta>
+         <!-- Oferta 4 -->
+        <oferta estado="Cancelado">
+            <tituloEmpleo>Desarrollador Mobile</tituloEmpleo>
+            <nombreEmpresa>AppInnovate</nombreEmpresa>
+            <descripcion>
+                    <![CDATA[
+                            Descripción detallada del puesto de Desarrollador Mobile....              
+                    ]]>
+            </descripcion>
+            <fechaIncicio>
+                <dia>7</dia>
+                <mes>Marzo</mes>
+                <año>2025</año>
+            </fechaIncicio>
+            <salario unidad="EUR">37000</salario>
+            <dirCorreo>antoniocorderomn@gmail.com</dirCorreo>
+            <webs>
+                <web urlOferta="www.monster.es/oferta-desarrollador-mobile-appinnovate">Monster</web> 
+                <web urlOferta="www.linkedin.es/oferta-desarrollador-mobile-appinnovate">LinkedIn</web> 
+            </webs>
+        </oferta>
+         <!-- Oferta 5 (propia) -->
+         <oferta estado="Activo">
+            <tituloEmpleo>Data Engineer</tituloEmpleo>
+            <nombreEmpresa>Habanade EEUU</nombreEmpresa>
+            <descripcion>
+                    <![CDATA[
+                            Descripción detallada del puesto de Data Engineer....              
+                    ]]>
+            </descripcion>
+            <fechaIncicio>
+                <dia>6</dia>
+                <mes>Marzo</mes>
+                <año>2025</año>
+            </fechaIncicio>
+            <salario unidad="USD">35000</salario>
+            <dirCorreo>antoniocorderomn@gmail.com</dirCorreo>
+            <webs>
+                <web urlOferta="www.indeed.es/oferta-data-engineer-habanade-eeuu">Indeed</web> 
+                <web urlOferta="www.linkedin.es/oferta-data-enginner-habanade-eeuu">LinkedIn</web> 
+            </webs>
+        </oferta>
+    </ofertas>
+    
+</aplicacion>
+
