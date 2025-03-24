@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Ejemplo 1 Clase
+-->
+
+<alumnos>
+    <profesor ciclo="dam">
+        <nombre>Jose Antonio</nombre>
+        <apellido>Lara</apellido>
+    </profesor>
+    <alumno dni="54453" ciclo="dam">
+        <nombre>Francisco</nombre>
+        <apellido>Romero</apellido>
+    </alumno>
+    <alumno dni="5445332" ciclo="daw">
+        <nombre>Jonas</nombre>
+        <apellido>Zamora</apellido>
+    </alumno>
+    <alumno dni="987987987" ciclo="daw">
+        <nombre>Jon</nombre>
+        <apellido>Zamora</apellido>
+    </alumno>
+    <alumno dni="55435" ciclo="daw">
+        <nombre>Jonny</nombre>
+        <apellido>Zamora</apellido>
+    </alumno>
+    <alumno dni="12345678A" ciclo="dam">
+        <nombre>María</nombre>
+        <apellido>González</apellido>
+    </alumno>
+    <alumno dni="87654321B" ciclo="daw">
+        <nombre>Carlos</nombre>
+        <apellido>Martínez</apellido>
+    </alumno>
+    <alumno dni="11223344C" ciclo="dam">
+        <nombre>Lucía</nombre>
+        <apellido>Fernández</apellido>
+    </alumno>
+    <alumno dni="44332211D" ciclo="daw">
+        <nombre>David</nombre>
+        <apellido>García</apellido>
+    </alumno>
+    <alumno dni="55667788E" ciclo="dam">
+        <nombre>Laura</nombre>
+        <apellido>Rodríguez</apellido>
+    </alumno>
+    <alumno dni="99887766F" ciclo="daw">
+        <nombre>Pedro</nombre>
+        <apellido>Lopez</apellido>
+    </alumno>
+    <alumno dni="88776655G" ciclo="dam">
+        <nombre>Elena</nombre>
+        <apellido>Moreno</apellido>
+    </alumno>
+    <alumno dni="77665544H" ciclo="daw">
+        <nombre>Raúl</nombre>
+        <apellido>Jiménez</apellido>
+    </alumno>
+    <alumno dni="66554433I" ciclo="dam">
+        <nombre>Isabel</nombre>
+        <apellido>Ruiz</apellido>
+    </alumno>
+    <alumno dni="55443322J" ciclo="daw">
+        <nombre>Antonio</nombre>
+        <apellido>Hernández</apellido>
+    </alumno>
+    <alumno dni="44332211K" ciclo="dam">
+        <nombre>Patricia</nombre>
+        <apellido>Sánchez</apellido>
+    </alumno>
+    <alumno dni="33221100L" ciclo="daw">
+        <nombre>Javier</nombre>
+        <apellido>Castro</apellido>
+    </alumno>
+    <alumno dni="22110099M" ciclo="dam">
+        <nombre>Rosa</nombre>
+        <apellido>Vega</apellido>
+    </alumno>
+    <alumno dni="11009988N" ciclo="daw">
+        <nombre>Manuel</nombre>
+        <apellido>Ortega</apellido>
+    </alumno>
+    <alumno dni="00998877O" ciclo="dam">
+        <nombre>Teresa</nombre>
+        <apellido>Navarro</apellido>
+    </alumno>
+    <alumno dni="99887766P" ciclo="daw">
+        <nombre>Alberto</nombre>
+        <apellido>Domínguez</apellido>
+    </alumno>
+    <alumno dni="88776655Q" ciclo="dam">
+        <nombre>Silvia</nombre>
+        <apellido>Ramos</apellido>
+    </alumno>
+    <alumno dni="77665544R" ciclo="daw">
+        <nombre>Fernando</nombre>
+        <apellido>Gil</apellido>
+    </alumno>
+    <alumno dni="66554433S" ciclo="dam">
+        <nombre>Beatriz</nombre>
+        <apellido>Flores</apellido>
+    </alumno>
+</alumnos>
+
