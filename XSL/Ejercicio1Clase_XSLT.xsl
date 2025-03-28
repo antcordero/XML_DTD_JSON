@@ -3,7 +3,7 @@
 <!--
     Document   : Ejercicio1Clase_XSLT.xsl
     Created on : 28 de marzo de 2025, 8:49
-    Author     : AntonioCorderoMolina
+    Author     : AntonioCordero
     
 
     *************
