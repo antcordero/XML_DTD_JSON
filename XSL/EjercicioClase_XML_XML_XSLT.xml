@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Objetivo: 
+    Conventir este xml a html 
+-->
+
 <Nomina>
     <Empresa>
         <Nombre>Tech Solutions S.L.</Nombre>
