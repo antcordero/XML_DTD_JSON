@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nomina>
+    <Empresa>
+        <Nombre>Tech Solutions S.L.</Nombre>
+        <CIF>B12345678</CIF>
+        <Direccion>Calle Innovación 42, Madrid</Direccion>
+    </Empresa>
+    <Trabajador>
+        <Nombre>Tu Nombre Aquí</Nombre>
+        <DNI>98765432X</DNI>
+        <NSS>98 765432 02</NSS>
+        <Categoria grupoCotizacion="2">Técnico Superior</Categoria>
+        <Departamento>Desarrollo</Departamento>
+        <Puesto>Desarrollador Web</Puesto>
+        <FechaAlta>01/01/2023</FechaAlta>
+    </Trabajador>
+    <Periodo>
+        <FechaInicio>01/01/2025</FechaInicio>
+        <FechaFin>31/01/2025</FechaFin>
+        <TotalDias>31</TotalDias>
+    </Periodo>
+    <Devengos>
+        <Concepto descripcion="Salario" importe="1200.00"/>
+        <Concepto descripcion="Transporte" importe="150.00"/>
+        <Concepto descripcion="PagaExtra" importe="100.00"/>
+        <Concepto descripcion="Productividad" importe="200.00"/>
+    </Devengos>
+    <Deducciones>
+        <Concepto descripcion="IRPF" porcentaje="15" importe="210.00"/>
+        <Concepto descripcion="SeguridadSocial" porcentaje="6.35" importe="100.00"/>
+        <Concepto descripcion="Desempleo" porcentaje="1.55" importe="20.00"/>
+        <Concepto descripcion="FormaciónProfesional" porcentaje="0.1" importe="10.00"/>
+    </Deducciones>
+    <Totales>
+        <TotalDevengado>1650.00</TotalDevengado>
+        <TotalDeducido>340.00</TotalDeducido>
+        <SalarioNeto>1310.00</SalarioNeto>
+    </Totales>
+</Nomina>
+
