@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consolas>
+    <consola>
+        <nombre>PC Engine/TurboGrafx-16</nombre>
+        <fabricante>NEC</fabricante>
+        <lanzamiento>1987</lanzamiento>
+        <procesador>HuC6280 8-bit</procesador>
+        <gpu>16-bit</gpu>
+        <colores>512 (9-bit) hasta 32,768 (15-bit)</colores>
+        <audio>Estéreo, múltiples canales, reproducción de audio digital</audio>
+    </consola>
+    <consola>
+        <nombre>Super Nintendo Entertainment System (SNES)</nombre>
+        <fabricante>Nintendo</fabricante>
+        <lanzamiento>1990</lanzamiento>
+        <procesador>Ricoh 5A22 16-bit</procesador>
+        <gpu>PPU 16-bit</gpu>
+        <colores>32,768 (15-bit)</colores>
+        <audio>Sony SPC700, 8 canales de sonido</audio>
+    </consola>
+    <consola>
+        <nombre>Sega Mega Drive/Genesis</nombre>
+        <fabricante>Sega</fabricante>
+        <lanzamiento>1988</lanzamiento>
+        <procesador>Motorola 68000 16-bit</procesador>
+        <gpu>VDP 16-bit</gpu>
+        <colores>512 (9-bit)</colores>
+        <audio>Yamaha YM2612, 6 canales de sonido FM</audio>
+    </consola>
+    <consola>
+        <nombre>Neo Geo AES</nombre>
+        <fabricante>SNK</fabricante>
+        <lanzamiento>1990</lanzamiento>
+        <procesador>Motorola 68000 16-bit</procesador>
+        <gpu>Custom 24-bit</gpu>
+        <colores>65,536 (16-bit)</colores>
+        <audio>YM2610, 15 canales de sonido</audio>
+    </consola>
+</consolas>
+
