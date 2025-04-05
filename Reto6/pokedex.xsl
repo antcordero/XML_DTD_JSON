@@ -62,7 +62,8 @@
                 margin: 10px 0;
             }
             
-            .tipos span { 
+            .tipos div { 
+                display: inline-block;
                 padding: 4px 8px; 
                 border-radius: 5px; 
                 margin-right: 5px; 
@@ -163,56 +164,55 @@
                         <xsl:for-each select="tipos/tipo">
                             <xsl:choose>
                                 <xsl:when test=". = 'Fire'">
-                                    <span class="tipo-fire">
+                                    <div class="tipo-fire">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Electric'">
-                                    <span class="tipo-electric">
+                                    <div class="tipo-electric">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Water'">
-                                    <span class="tipo-water">
+                                    <div class="tipo-water">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Poison'">
-                                    <span class="tipo-poison">
+                                    <div class="tipo-poison">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Flying'">
-                                    <span class="tipo-flying">
+                                    <div class="tipo-flying">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Normal'">
-                                    <span class="tipo-normal">
+                                    <div class="tipo-normal">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Bug'">
-                                    <span class="tipo-bug">
+                                    <div class="tipo-bug">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                                 <xsl:when test=". = 'Grass'">
-                                    <span class="tipo-grass">
+                                    <div class="tipo-grass">
                                         <xsl:value-of select="."/>
-                                    </span>
+                                    </div>
                                 </xsl:when>
                             </xsl:choose>
                         </xsl:for-each>
-
                     </div>
                     <div class="ataques">
                         <strong>Ataques:</strong>
                         <ul>
                             <xsl:for-each select="ataques/ataque">
                                 <li>
-                                    <span><xsl:value-of select="."/></span>
-                                    <span class="ataque-poder"><xsl:value-of select="@poder"/></span>
+                                    <xsl:value-of select="."/>
+                                    <div class="ataque-poder"><xsl:value-of select="@poder"/></div>
                                 </li>
                             </xsl:for-each>
                         </ul>
