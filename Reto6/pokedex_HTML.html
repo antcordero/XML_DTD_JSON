@@ -1,0 +1,762 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Pokedex</title>
+        <style>
+            body { 
+                font-family: Arial; 
+                background-color: #f0f0f0; 
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 36px;
+                color: #e63946;
+            }
+            .pokemon { 
+                border: 2px solid #ccc; 
+                margin: 10px; 
+                padding: 10px; 
+                border-radius: 8px; 
+                background: white; 
+                text-align: center;
+                display: inline-block;
+                width: 200px;
+            }
+            
+            img { 
+                width: 150px;
+                height: 150px;
+                display: block; 
+                margin-left: auto; 
+                margin-right: auto;
+                margin-bottom: 10px;
+            }
+            
+            h2 { 
+                color: #e63946; 
+                font-size: 18px;
+                margin: 10px 0;
+            }
+            
+            .tipos span { 
+                padding: 4px 8px; 
+                border-radius: 5px; 
+                margin-right: 5px; 
+                color: white;
+            }
+            
+            .descripcion {
+                text-align: center;
+                margin: 10px 0;
+            }
+
+            .descripcion strong {
+                display: block;
+                font-size: 1em;
+                margin-bottom: 5px;
+            }
+
+            .descripcion p {
+                margin: 0;
+            }
+
+            .ataques {
+                margin-top: 15px;
+                text-align: left;
+            }
+
+            .ataques strong {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .ataques ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .ataques li {
+                background-color: #fff9c4;
+                border-radius: 10px;
+                padding: 6px 10px;
+                margin-bottom: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+            }
+
+            .ataque-poder {
+                background-color: #ccc799;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .tipo-fire { background-color: #f44336; }
+            .tipo-electric { background-color: #ffeb3b; color: black; }
+            .tipo-water { background-color: #2196f3; }
+            .tipo-poison { background-color: #9c27b0; }
+            .tipo-flying { background-color: #9e9e9e; }
+            .tipo-normal { background-color: #9e9e9e; }
+            .tipo-bug { background-color: #4caf50; }
+            .tipo-grass { background-color: #4caf50; }
+        </style>
+    </head>
+    <body>
+        <h1>Pokedex</h1>
+        <div class="container">
+            <div class="pokemon">
+                <h2>Bulbasaur (#1)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/bulbasaur.jpg" alt="Bulbasaur">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Bulbasaur is a dual-type Grass/Poison Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-grass">Grass</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Vine Whip</span><span class="ataque-poder">45</span>
+                        </li>
+                        <li>
+                            <span>Take Down</span><span class="ataque-poder">50</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Ivysaur (#2)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/ivysaur.jpg" alt="Ivysaur">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Ivysaur is the evolved form of Bulbasaur.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-grass">Grass</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Vine Whip</span><span class="ataque-poder">45</span>
+                        </li>
+                        <li>
+                            <span>Razor Leaf</span><span class="ataque-poder">55</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Venusaur (#3)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/venusaur.jpg" alt="Venusaur">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Venusaur is the final evolution of Bulbasaur.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-grass">Grass</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Vine Whip</span><span class="ataque-poder">45</span>
+                        </li>
+                        <li>
+                            <span>SolarBeam</span><span class="ataque-poder">120</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Charmander (#4)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/charmander.jpg" alt="Charmander">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Charmander is a Fire-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-fire">Fire</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Scratch</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Ember</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Flamethrower</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Charmeleon (#5)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/charmeleon.jpg" alt="Charmeleon">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Charmeleon is the evolved form of Charmander.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-fire">Fire</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Scratch</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Ember</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Flamethrower</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Charizard (#6)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/charizard.jpg" alt="Charizard">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Charizard is the final evolution of Charmander.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-fire">Fire</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Scratch</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Flamethrower</span><span class="ataque-poder">90</span>
+                        </li>
+                        <li>
+                            <span>Fly</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Squirtle (#7)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/squirtle.jpg" alt="Squirtle">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Squirtle is a Water-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-water">Water</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Water Gun</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hydro Pump</span><span class="ataque-poder">110</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Wartortle (#8)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/wartortle.jpg" alt="Wartortle">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Wartortle is the evolved form of Squirtle.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-water">Water</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Water Gun</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hydro Pump</span><span class="ataque-poder">110</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Blastoise (#9)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/blastoise.jpg" alt="Blastoise">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Blastoise is the final evolution of Squirtle.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-water">Water</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Water Gun</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hydro Cannon</span><span class="ataque-poder">150</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Caterpie (#10)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/caterpie.jpg" alt="Caterpie">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Caterpie is a Bug-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>String Shot</span><span class="ataque-poder">0</span>
+                        </li>
+                        <li>
+                            <span>Bug Bite</span><span class="ataque-poder">60</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Metapod (#11)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/metapod.jpg" alt="Metapod">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Metapod is the evolved form of Caterpie.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Harden</span><span class="ataque-poder">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Butterfree (#12)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/butterfree.jpg" alt="Butterfree">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Butterfree is the final evolution of Caterpie.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Confusion</span><span class="ataque-poder">50</span>
+                        </li>
+                        <li>
+                            <span>Bug Buzz</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Weedle (#13)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/weedle.jpg" alt="Weedle">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Weedle is a Bug/Poison-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Poison Sting</span><span class="ataque-poder">15</span>
+                        </li>
+                        <li>
+                            <span>String Shot</span><span class="ataque-poder">0</span>
+                        </li>
+                        <li>
+                            <span>Bug Bite</span><span class="ataque-poder">60</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Kakuna (#14)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/kakuna.jpg" alt="Kakuna">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Kakuna is the evolved form of Weedle.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Harden</span><span class="ataque-poder">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Beedrill (#15)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/beedrill.jpg" alt="Beedrill">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Beedrill is the final evolution of Weedle.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-bug">Bug</span><span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Twinneedle</span><span class="ataque-poder">25</span>
+                        </li>
+                        <li>
+                            <span>Sludge Bomb</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Pidgey (#16)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/pidgey.jpg" alt="Pidgey">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Pidgey is a Normal/Flying-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Gust</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Pidgeotto (#17)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/pidgeotto.jpg" alt="Pidgeotto">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Pidgeotto is the evolved form of Pidgey.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Gust</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Pidgeot (#18)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/pidgeot.jpg" alt="Pidgeot">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Pidgeot is the final evolution of Pidgey.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Gust</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hurricane</span><span class="ataque-poder">110</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Rattata (#19)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/rattata.jpg" alt="Rattata">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Rattata is a Normal-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hyper Fang</span><span class="ataque-poder">80</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Raticate (#20)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/raticate.jpg" alt="Raticate">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Raticate is the evolved form of Rattata.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Tackle</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Hyper Fang</span><span class="ataque-poder">80</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Spearow (#21)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/spearow.jpg" alt="Spearow">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Spearow is a Normal/Flying-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Peck</span><span class="ataque-poder">35</span>
+                        </li>
+                        <li>
+                            <span>Growl</span><span class="ataque-poder">0</span>
+                        </li>
+                        <li>
+                            <span>Drill Peck</span><span class="ataque-poder">80</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Fearow (#22)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/fearow.jpg" alt="Fearow">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Fearow is the evolved form of Spearow.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-normal">Normal</span><span class="tipo-flying">Flying</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Peck</span><span class="ataque-poder">35</span>
+                        </li>
+                        <li>
+                            <span>Growl</span><span class="ataque-poder">0</span>
+                        </li>
+                        <li>
+                            <span>Drill Peck</span><span class="ataque-poder">80</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Ekans (#23)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/ekans.jpg" alt="Ekans">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Ekans is a Poison-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Wrap</span><span class="ataque-poder">15</span>
+                        </li>
+                        <li>
+                            <span>Poison Sting</span><span class="ataque-poder">15</span>
+                        </li>
+                        <li>
+                            <span>Acid</span><span class="ataque-poder">40</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Arbok (#24)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/arbok.jpg" alt="Arbok">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Arbok is the evolved form of Ekans.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-poison">Poison</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Wrap</span><span class="ataque-poder">15</span>
+                        </li>
+                        <li>
+                            <span>Poison Sting</span><span class="ataque-poder">15</span>
+                        </li>
+                        <li>
+                            <span>Acid</span><span class="ataque-poder">40</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Pikachu (#25)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/pikachu.jpg" alt="Pikachu">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Pikachu is an Electric-type Pok&eacute;mon.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-electric">Electric</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Thunder Shock</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Thunderbolt</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pokemon">
+                <h2>Raichu (#26)</h2>
+                <img src="https://img.pokemondb.net/artwork/large/raichu.jpg" alt="Raichu">
+                <div class="descripcion">
+                    <strong>Descripci&oacute;n:</strong>
+                    <p>Raichu is the evolved form of Pikachu.</p>
+                </div>
+                <div class="tipos">
+                    <span class="tipo-electric">Electric</span>
+                </div>
+                <div class="ataques">
+                    <strong>Ataques:</strong>
+                    <ul>
+                        <li>
+                            <span>Thunder Shock</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Quick Attack</span><span class="ataque-poder">40</span>
+                        </li>
+                        <li>
+                            <span>Thunderbolt</span><span class="ataque-poder">90</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
