@@ -75,12 +75,6 @@
                 margin: 10px 0;
             }
 
-            .descripcion strong {
-                display: block;
-                font-size: 1em;
-                margin-bottom: 5px;
-            }
-
             .descripcion p {
                 margin: 0;
             }
@@ -88,11 +82,6 @@
             .ataques {
                 margin-top: 15px;
                 text-align: left;
-            }
-
-            .ataques strong {
-                display: block;
-                margin-bottom: 5px;
             }
 
             .ataques ul {
@@ -155,12 +144,10 @@
                     </img>
 
                     <div class="descripcion">
-                        <strong>Descripción:</strong>
                         <p><xsl:value-of select="descripcion"/></p>
                     </div>
 
                     <div class="tipos">
-                        <!--<strong>Tipos:</strong>-->
                         <xsl:for-each select="tipos/tipo">
                             <xsl:choose>
                                 <xsl:when test=". = 'Fire'">
@@ -207,7 +194,6 @@
                         </xsl:for-each>
                     </div>
                     <div class="ataques">
-                        <strong>Ataques:</strong>
                         <ul>
                             <xsl:for-each select="ataques/ataque">
                                 <li>
