@@ -5,15 +5,18 @@
     <!ELEMENT pokemones (pokemon*)>
     <!ELEMENT pokemon (nombre, descripcion, imagen, tipos, ataques)>
         <!ATTLIST pokemon numero CDATA #REQUIRED>
+    
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT descripcion (#PCDATA)>
     <!ELEMENT imagen EMPTY>
-        <!ATTLIST imagen url CDATA #REQUIRED >
-    <!ELEMENT tipos (tipo+) >
-    <!ELEMENT tipo (#PCDATA) >
-    <!ELEMENT ataques (ataque+) >
-    <!ELEMENT ataque (#PCDATA) >
-        <!ATTLIST ataque poder CDATA #REQUIRED >
+        <!ATTLIST imagen url CDATA #REQUIRED>
+    
+    <!ELEMENT tipos (tipo+)>
+        <!ELEMENT tipo (#PCDATA)>
+    
+    <!ELEMENT ataques (ataque+)>
+        <!ELEMENT ataque (#PCDATA)>
+            <!ATTLIST ataque poder CDATA #REQUIRED>
 ]>
 
 <pokemones>
