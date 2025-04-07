@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+-->
+
+<!DOCTYPE root [
+<!ELEMENT root (Devengos*)>
+    
+    <!ELEMENT Devengos (Concepto*)>
+    <!ELEMENT Concepto EMPTY>
+    <!ATTLIST Concepto
+        descripcion CDATA #REQUIRED
+        importe CDATA #REQUIRED
+    >
+]>
+
+<root>
+    <Devengos>
+        <Concepto descripcion="Salario" importe="1200.00"/>
+        <Concepto descripcion="Transporte" importe="150.00"/>
+        <Concepto descripcion="PagaExtra" importe="100.00"/>
+        <Concepto descripcion="Productividad" importe="200.00"/>
+    </Devengos>
+</root>
