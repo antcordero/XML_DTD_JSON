@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE universidad [
+
+<!ELEMENT universidad (estudiante+)>
+<!ATTLIST universidad nombre CDATA #REQUIRED>
+<!ATTLIST universidad ciudad CDATA #REQUIRED>
+
+<!ELEMENT estudiante (nombre,edad,carrera,asignaturas)>
+<!ATTLIST estudiante id ID #REQUIRED>
+<!ATTLIST estudiante becado (sí|no) #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT asignaturas (asignatura+)>
+
+<!ATTLIST asignaturas semestre CDATA #IMPLIED>
+
+<!ELEMENT asignatura (nombre,nota) >
+
+<!ATTLIST asignatura codigo ID #REQUIRED>
+<!ATTLIST asignatura obligatoria (sí|no) #REQUIRED>
+
+<!ELEMENT nota (#PCDATA)>
+
+<!ATTLIST nota tipo (final|continua) #REQUIRED>
+
+]>
+
+<universidad nombre="Universidad Técnica de Madrid" ciudad="Madrid">
+    <estudiante id="E1234" becado="sí">
+        <nombre>Laura Gómez</nombre>
+        <edad>21</edad>
+        <carrera>Ingeniería Informática</carrera>
+        <asignaturas semestre="2">
+            <asignatura codigo="INF101" obligatoria="sí">
+                <nombre>Programación</nombre>
+                <nota tipo="final">9.5</nota>
+            </asignatura>
+            <asignatura codigo="INF102" obligatoria="no">
+                <nombre>Diseño Web</nombre>
+                <nota tipo="final">8.3</nota>
+            </asignatura>
+            <asignatura codigo="INF103" obligatoria="sí">
+                <nombre>Entornos de Desarrollo</nombre>
+                <nota tipo="continua">9.0</nota>
+            </asignatura>
+        </asignaturas>
+    </estudiante>
+    <estudiante id="E5678" becado="no">
+        <nombre>Carlos Ruiz</nombre>
+        <edad>23</edad>
+        <carrera>Ingeniería del Software</carrera>
+        <asignaturas semestre="4">
+            <asignatura codigo="ISW201" obligatoria="sí">
+                <nombre>Ingeniería del Software</nombre>
+                <nota tipo="final">7.8</nota>
+            </asignatura>
+            <asignatura codigo="ISW202" obligatoria="no">
+                <nombre>Pruebas de Software</nombre>
+                <nota tipo="continua">8.2</nota>
+            </asignatura>
+        </asignaturas>
+    </estudiante>
+</universidad>
+
+

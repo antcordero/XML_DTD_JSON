@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<empresa nombre="TechCorp" fundacion="2005" sede="Silicon Valley">
+    <departamentos>
+        <departamento id="D001" nombre="Desarrollo" lider="Juan Perez">
+            <empleados>
+                <empleado id="E001" nombre="Carlos Lopez" rol="Programador" antiguedad="5" />
+                <empleado id="E002" nombre="Ana Martinez" rol="Diseñadora" antiguedad="3" />
+                <empleado id="E003" nombre="Luis Torres" rol="Tester" antiguedad="2" />
+            </empleados>
+            <proyectos>
+                <proyecto id="P001" nombre="SistemaERP" estado="En Desarrollo" fechaInicio="2022-01-15" />
+                <proyecto id="P002" nombre="AppMovil" estado="Finalizado" fechaInicio="2021-06-10" />
+            </proyectos>
+        </departamento>
+        <departamento id="D002" nombre="Marketing" lider="Maria Gomez">
+            <empleados>
+                <empleado id="E004" nombre="Rosa Diaz" rol="Especialista SEO" antiguedad="4" />
+                <empleado id="E005" nombre="Pedro Sanchez" rol="Analista de Datos" antiguedad="6" />
+            </empleados>
+            <campañas>
+                <campaña id="C001" nombre="LanzamientoProductoX" presupuesto="50000" fechaInicio="2023-03-01" />
+                <campaña id="C002" nombre="PromocionNavidad" presupuesto="30000" fechaInicio="2022-11-15" />
+            </campañas>
+        </departamento>
+    </departamentos>
+    <clientes>
+        <cliente id="CL001" nombre="EmpresaA" industria="Tecnología" ingresosAnuales="1000000" />
+        <cliente id="CL002" nombre="EmpresaB" industria="Retail" ingresosAnuales="500000" />
+    </clientes>
+</empresa>
+

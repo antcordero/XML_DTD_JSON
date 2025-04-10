@@ -1,0 +1,63 @@
+pokemon* (0 o mas)
+pokemon+ (1 o mas)
+pokemon? (opcional)
+
+!ELEMENT (etiqueta)
+!ATTLIST (atributo de la etiqueta)
+EMPTY (etiqueta vacía, sin contenido)
+#PCDATA (contiene caracteres (a,b,c,d...)
+CDATA (contiene caracteres, números, símbolos...)
+#REQUIRED (obligatorio)
+
+
+<!DOCTYPE pokemones [
+
+<!ELEMENT pokemones (pokemon+)>
+<!ELEMENT pokemon (nombre, descripcion, imagen, tipos, ataques)>
+<!ATTLIST pokemon numero CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT imagen EMPTY>
+<!ATTLIST imagen url CDATA #REQUIRED>
+<!ELEMENT tipos (tipo+)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT ataques (ataque+)>
+<!ELEMENT ataque (#PCDATA)>
+<!ATTLIST ataque poder CDATA #REQUIRED>
+
+]>
+
+<pokemones>
+
+
+	<pokemon numero="1">
+
+		<nombre>Bulbasaur</nombre>
+
+		<descripcion>Bulbasaur is a dual-type Grass/Poison Pokémon.</descripcion>
+
+		<imagen url="https://img.pokemondb.net/artwork/large/bulbasaur.jpg"/>
+
+
+	<tipos>
+
+		<tipo>Grass</tipo>
+
+		<tipo>Poison</tipo>
+
+	</tipos>
+
+
+	<ataques>
+
+		<ataque poder="40">Tackle</ataque>
+
+		<ataque poder="45">Vine Whip</ataque>
+
+	<ataque poder="50">Take Down</ataque>
+
+	</ataques>
+
+	</pokemon>
+
+</pokemones>

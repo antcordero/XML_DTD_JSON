@@ -7,14 +7,14 @@
 <!DOCTYPE aplicacion [
     <!ELEMENT aplicacion (ofertas*) >
         <!ELEMENT ofertas (oferta*)>
-            <!ATTLIST ofertas idUsusario ID #REQUIRED>
-                <!ELEMENT oferta (tituloEmpleo, nombreEmpresa, descripcion, fechaInicio, salario, dirCorreo, webs)>
-                <!ATTLIST oferta estado (Cancelado | Activo) #REQUIRED>
-                
-        <!ELEMENT tituloEmpleado (#PCDATA)>
+            <!ATTLIST ofertas idUsuario ID #REQUIRED>
+        <!ELEMENT oferta (tituloEmpleo, nombreEmpresa, descripcion, fechaInicio, salario, dirCorreo, webs)>
+            <!ATTLIST oferta estado (Cancelado | Activo) #REQUIRED>
+
+        <!ELEMENT tituloEmpleo (#PCDATA)>
         <!ELEMENT nombreEmpresa (#PCDATA)>
         <!ELEMENT descripcion (#PCDATA)>
-        <!ELEMENT fechaInicio (día, mes, año)>
+        <!ELEMENT fechaInicio (dia, mes, año)>
             <!ELEMENT dia (#PCDATA)>
             <!ELEMENT mes (#PCDATA)>
             <!ELEMENT año (#PCDATA)>

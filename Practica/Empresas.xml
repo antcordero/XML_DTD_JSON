@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE empresa [
+
+<!ELEMENT empresa (departamentos,clientes)>
+<!ATTLIST empresa nombre CDATA #REQUIRED>
+<!ATTLIST empresa fundacion CDATA #REQUIRED>
+<!ATTLIST empresa sede CDATA #REQUIRED>
+
+<!ELEMENT departamentos (departamento+)>
+
+<!ELEMENT departamento (empleados*,proyectos?,campañas?)>
+<!ATTLIST departamento id ID #REQUIRED>
+<!ATTLIST departamento nombre CDATA #REQUIRED>
+<!ATTLIST departamento lider CDATA #REQUIRED>
+
+<!ELEMENT empleados (empleado*)>
+<!ELEMENT empleado EMPTY>
+<!ATTLIST empleado id ID #REQUIRED>
+<!ATTLIST empleado nombre CDATA #REQUIRED>
+<!ATTLIST empleado rol CDATA #REQUIRED>
+<!ATTLIST empleado antiguedad CDATA #IMPLIED>
+
+<!ELEMENT proyectos (proyecto+)>
+<!ELEMENT proyecto EMPTY>
+<!ATTLIST proyecto id ID #REQUIRED>
+<!ATTLIST proyecto nombre CDATA #REQUIRED>
+<!ATTLIST proyecto estado (En_Desarrollo|Finalizado) #REQUIRED>
+<!ATTLIST proyecto fechaInicio CDATA #REQUIRED>
+
+<!ELEMENT campañas (campaña+)>
+<!ELEMENT campaña EMPTY>
+<!ATTLIST campaña id ID #REQUIRED>
+<!ATTLIST campaña nombre CDATA #REQUIRED>
+<!ATTLIST campaña presupuesto CDATA #REQUIRED>
+<!ATTLIST campaña fechaInicio CDATA #REQUIRED>
+
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente EMPTY>
+<!ATTLIST cliente id ID #REQUIRED>
+<!ATTLIST cliente nombre CDATA #REQUIRED>
+<!ATTLIST cliente industria CDATA #REQUIRED>
+<!ATTLIST cliente ingresosAnuales CDATA #REQUIRED>
+
+]>
+
+
+<empresa nombre="TechCorp" fundacion="2005" sede="Silicon Valley">
+    <departamentos>
+        <departamento id="D001" nombre="Desarrollo" lider="Juan Perez">
+            <empleados>
+                <empleado id="E001" nombre="Carlos Lopez" rol="Programador" antiguedad="5" />
+                <empleado id="E002" nombre="Ana Martinez" rol="Diseñadora" antiguedad="3" />
+                <empleado id="E003" nombre="Luis Torres" rol="Tester" antiguedad="2" />
+            </empleados>
+            <proyectos>
+                <proyecto id="P001" nombre="SistemaERP" estado="En_Desarrollo" fechaInicio="2022-01-15" />
+                <proyecto id="P002" nombre="AppMovil" estado="Finalizado" fechaInicio="2021-06-10" />
+            </proyectos>
+        </departamento>
+        <departamento id="D002" nombre="Marketing" lider="Maria Gomez">
+            <empleados>
+                <empleado id="E004" nombre="Rosa Diaz" rol="Especialista SEO" antiguedad="4" />
+                <empleado id="E005" nombre="Pedro Sanchez" rol="Analista de Datos" antiguedad="6" />
+            </empleados>
+            <campañas>
+                <campaña id="C001" nombre="LanzamientoProductoX" presupuesto="50000" fechaInicio="2023-03-01" />
+                <campaña id="C002" nombre="PromocionNavidad" presupuesto="30000" fechaInicio="2022-11-15" />
+            </campañas>
+        </departamento>
+    </departamentos>
+    <clientes>
+        <cliente id="CL001" nombre="EmpresaA" industria="Tecnología" ingresosAnuales="1000000" />
+        <cliente id="CL002" nombre="EmpresaB" industria="Retail" ingresosAnuales="500000" />
+    </clientes>
+</empresa>
+

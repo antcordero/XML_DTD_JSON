@@ -1,0 +1,93 @@
+{
+    "nombre": "TechCorp",
+    "fundacion": 2005,
+    "sede": "Silicon Valley",
+    "departamentos": [
+        {
+            "id": "D001",
+            "nombre": "Desarrollo",
+            "lider": "Juan Perez",
+            "empleados": [
+                {
+                    "id": "E001",
+                    "nombre": "Carlos Lopez",  
+                    "rol": "Programador",
+                    "antiguedad": 5
+                },
+                {
+                    "id": "E002",
+                    "nombre": "Ana Martinez",  
+                    "rol": "Diseñadora",
+                    "antiguedad": 3
+                },
+                {
+                    "id": "E003",
+                    "nombre": "Luis Torres",  
+                    "rol": "Tester",
+                    "antiguedad": 2
+                }
+            ],
+            "proyectos": [
+                {
+                    "id": "P001",
+                    "nombre": "SistemaERP",
+                    "estado": "En_Desarrollo",
+                    "fechaInicio": "2022-01-15"
+                },
+                {
+                    "id": "P002",
+                    "nombre": "AppMovil",
+                    "estado": "Finalizado",
+                    "fechaInicio": "2021-06-10"
+                }
+            ]
+        },
+        {
+            "id": "D002",
+            "nombre": "Marketing",
+            "lider": "Maria Gomez",
+            "empleados": [
+                {
+                    "id": "E004",
+                    "nombre": "Rosa Diaz",  
+                    "rol": "Programador",
+                    "antiguedad": 4
+                },
+                {
+                    "id": "E005",
+                    "nombre": "Pedro Sanchez",  
+                    "rol": "Analista de Datos",
+                    "antiguedad": 6
+                }
+            ],
+            "campañas": [
+                {
+                    "id": "C001",
+                    "nombre": "LanzamientoProductoX",
+                    "presupuesto": 50000,
+                    "fechaInicio": "2023-03-01"
+                },
+                {
+                    "id": "C002",
+                    "nombre": "PromocionNavidad",
+                    "presupuesto": 30000,
+                    "fechaInicio": "2022-11-15"
+                }
+            ]
+        }
+    ],
+    "clientes": [
+        {
+            "id": "CL001",
+            "nombre": "EmpresaA",
+            "industria": "Tecnología",
+            "ingresosAnuales": 1000000
+        },
+        {
+            "id": "CL002",
+            "nombre": "EmpresaB",
+            "industria": "Retail",
+            "ingresosAnuales": 500000
+        }
+    ]
+}

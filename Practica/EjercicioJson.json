@@ -1,0 +1,75 @@
+{
+    "nombre": "Universidad Técnica de Madrid",
+    "ciudad": "Madrid",
+    "estudiantes": [
+        {
+            "id": "E1234",
+            "nombre": "Laura Gómez",
+            "becado": "sí",
+            "edad": 21,
+            "carrera": "Ingeniería Informática",
+            "asignaturas": {
+                "semestre": 2,
+                "asignatura": [
+                    {
+                        "código": "INF101",
+                        "obligatoria": "sí",
+                        "nombre": "Programación",
+                        "nota": {
+                            "tipo": "final",
+                            "valor": 9.5
+                        }
+                    },
+                    {
+                        "código": "INF102",
+                        "obligatoria": "no",
+                        "nombre": "Diseño Web",
+                        "nota": {
+                            "tipo": "final",
+                            "valor": 8.3
+                        }
+                    },
+                    {
+                        "código": "INF103",
+                        "obligatoria": "sí",
+                        "nombre": "Entornos de Desarrollo",
+                        "nota": {
+                            "tipo": "continua",
+                            "valor": 9.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E5678",
+            "nombre": "Carlos Ruiz",
+            "becado": "no",
+            "edad": 23,
+            "carrera": "Ingeniería del Software",
+            "asignaturas": {
+                "semestre": 4,
+                "asignatura": [
+                    {
+                        "código": "ISW201",
+                        "obligatoria": "sí",
+                        "nombre": "Ingeniería del Software",
+                        "nota": {
+                            "tipo": "final",
+                            "valor": 7.8
+                        }
+                    },
+                    {
+                        "código": "ISW202",
+                        "obligatoria": "no",
+                        "nombre": "Pruebas de Software",
+                        "nota": {
+                            "tipo": "continua",
+                            "valor": 8.2
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
